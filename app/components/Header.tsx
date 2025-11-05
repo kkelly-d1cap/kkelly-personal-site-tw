@@ -19,19 +19,19 @@ export default function Header() {
       <nav className="mx-auto max-w-7xl px-6 lg:px-8" aria-label="Top">
         <div className="flex w-full items-center justify-between py-6">
           <div className="flex items-center">
-            <Link href="/" className="font-heading text-2xl font-bold">
+            <Link href="/" className="font-heading text-4xl font-bold">
               <span className="text-charcoal">katie</span>
               <span className="text-medium-gray">kelly</span>
             </Link>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex md:gap-x-8">
+          <div className="hidden md:flex md:gap-x-2">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm font-medium text-charcoal hover:text-orange transition-colors"
+                className="px-4 py-2 rounded-full text-sm font-medium text-charcoal hover:bg-light-gray transition-colors"
               >
                 {item.name}
               </Link>
