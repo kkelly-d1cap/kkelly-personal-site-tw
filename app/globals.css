@@ -7,9 +7,9 @@
   --color-orange: #FF9F40;
   --color-lime: #C5F542;
 
-  --font-family-sans: 'Inter', 'SF Pro Text', system-ui, sans-serif;
-  --font-family-heading: 'Inter', 'Avenir Next', 'Gotham Bold', sans-serif;
-  --font-family-handwritten: 'Caveat', cursive;
+  --font-sans: 'Inter', 'SF Pro Text', system-ui, sans-serif;
+  --font-heading: 'Inter', 'Avenir Next', 'Gotham Bold', sans-serif;
+  --font-handwritten: 'Caveat', cursive;
 }
 
 body {
