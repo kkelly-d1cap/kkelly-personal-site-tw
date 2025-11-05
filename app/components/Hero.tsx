@@ -20,16 +20,16 @@ export default function Hero() {
     <section className="bg-charcoal text-white py-20 lg:py-32">
       <Container>
         {/* Profile Section */}
-        <div className="flex items-center gap-4 mb-12">
-          <div className="relative h-16 w-16 rounded-full bg-medium-gray overflow-hidden">
+        <div className="flex items-center gap-6 mb-12">
+          <div className="relative h-24 w-24 md:h-28 md:w-28 rounded-full bg-medium-gray overflow-hidden">
             {/* Placeholder for profile photo */}
-            <div className="absolute inset-0 flex items-center justify-center text-2xl font-bold">
+            <div className="absolute inset-0 flex items-center justify-center text-3xl md:text-4xl font-bold">
               KK
             </div>
           </div>
           <div>
-            <h2 className="text-xl font-heading font-bold">{config.personal.name}</h2>
-            <p className="text-gray-400 text-sm">{config.personal.title}</p>
+            <h2 className="text-2xl md:text-3xl font-heading font-bold">{config.personal.name}</h2>
+            <p className="text-gray-400 text-base md:text-lg">{config.personal.title}</p>
           </div>
         </div>
 
@@ -44,25 +44,25 @@ export default function Hero() {
           </p>
 
           {/* Value Proposition with Orange Handwritten */}
-          <p className="text-2xl md:text-3xl mb-12 font-handwritten text-orange">
+          <p className="text-3xl md:text-4xl lg:text-5xl mb-12 font-handwritten text-orange">
             Providing practical solutions for complex problems
           </p>
 
           {/* Email Subscription Form */}
           <div className="mt-12">
-            <h3 className="text-lg font-medium mb-4">Stay updated with my latest insights</h3>
-            <form onSubmit={handleSubmit} className="flex flex-row gap-3 max-w-2xl">
+            <h3 className="text-base md:text-lg font-medium mb-4">Stay updated with my latest insights</h3>
+            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-2xl">
               <input
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="email address"
-                className="flex-1 px-4 py-3 rounded-md bg-transparent border-2 border-lime text-white placeholder:text-lime focus:outline-none focus:ring-2 focus:ring-lime"
+                className="flex-1 px-3 py-2 sm:px-4 sm:py-3 text-sm sm:text-base rounded-md bg-transparent border-2 border-lime text-white placeholder:text-lime focus:outline-none focus:ring-2 focus:ring-lime"
                 required
               />
               <button
                 type="submit"
-                className="bg-lime text-charcoal font-medium px-6 py-3 rounded-md hover:bg-opacity-90 transition-all whitespace-nowrap"
+                className="bg-lime text-charcoal font-medium px-6 py-2 sm:py-3 text-sm sm:text-base rounded-md hover:bg-opacity-90 transition-all whitespace-nowrap"
               >
                 Subscribe
               </button>

@@ -51,9 +51,9 @@ export default function FindMe() {
   ];
 
   return (
-    <section id="contact" className="bg-white py-20 lg:py-32">
+    <section id="contact" className="bg-white py-12 lg:py-16">
       <Container>
-        <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-center text-charcoal">
+        <h2 className="font-handwritten text-4xl md:text-5xl mb-8 text-center text-charcoal">
           Find Me
         </h2>
         <div className="flex flex-wrap justify-center gap-8">
@@ -63,10 +63,10 @@ export default function FindMe() {
               href={social.url}
               target={social.name !== 'Email' ? '_blank' : undefined}
               rel={social.name !== 'Email' ? 'noopener noreferrer' : undefined}
-              className="flex flex-col items-center gap-2 text-medium-gray hover:text-orange transition-colors group"
+              className="flex flex-col items-center gap-2 text-medium-gray hover:text-lime transition-colors group"
               aria-label={social.name}
             >
-              <div className="p-4 bg-light-gray rounded-full group-hover:bg-orange/10 transition-colors">
+              <div className="p-4 bg-light-gray rounded-full group-hover:bg-lime/10 transition-colors">
                 {social.icon}
               </div>
               <span className="text-sm font-medium">{social.name}</span>
