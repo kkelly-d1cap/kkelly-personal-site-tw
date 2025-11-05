@@ -72,9 +72,10 @@ export default function FindMe() {
             </a>
           ))}
         </div>
-        <p className="text-center text-charcoal text-lg">
-          Peace + Ops, <span className="font-bold">Katie Kelly</span>
-        </p>
+        <div className="text-center text-charcoal font-handwritten">
+          <p className="text-2xl">Peace + Ops,</p>
+          <p className="text-4xl md:text-5xl font-bold">Katie Kelly</p>
+        </div>
       </Container>
     </section>
   );
