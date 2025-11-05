@@ -43,29 +43,26 @@ export default function Hero() {
             {config.hero.subheadline}
           </p>
 
-          {/* Value Proposition with Orange Highlight */}
-          <p className="text-xl md:text-2xl mb-12">
-            Providing practical solutions for{' '}
-            <span className="bg-orange text-white px-2 py-1 relative inline-block">
-              complex problems
-            </span>
+          {/* Value Proposition with Orange Handwritten */}
+          <p className="text-2xl md:text-3xl mb-12 font-handwritten text-orange">
+            Providing practical solutions for complex problems
           </p>
 
           {/* Email Subscription Form */}
           <div className="mt-12">
             <h3 className="text-lg font-medium mb-4">Stay updated with my latest insights</h3>
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md">
+            <form onSubmit={handleSubmit} className="flex flex-row gap-3 max-w-2xl">
               <input
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-md text-charcoal focus:outline-none focus:ring-2 focus:ring-lime"
+                placeholder="email address"
+                className="flex-1 px-4 py-3 rounded-md bg-transparent border-2 border-lime text-white placeholder:text-lime focus:outline-none focus:ring-2 focus:ring-lime"
                 required
               />
               <button
                 type="submit"
-                className="bg-lime text-charcoal font-medium px-6 py-3 rounded-md hover:bg-opacity-90 transition-all"
+                className="bg-lime text-charcoal font-medium px-6 py-3 rounded-md hover:bg-opacity-90 transition-all whitespace-nowrap"
               >
                 Subscribe
               </button>
