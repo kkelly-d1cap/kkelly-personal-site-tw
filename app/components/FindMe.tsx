@@ -63,7 +63,7 @@ export default function FindMe() {
               href={social.url}
               target={social.name !== 'Email' ? '_blank' : undefined}
               rel={social.name !== 'Email' ? 'noopener noreferrer' : undefined}
-              className="text-charcoal hover:text-lime transition-colors group"
+              className="text-charcoal group"
               aria-label={social.name}
             >
               <div className="p-4 bg-light-gray rounded-full border-2 border-charcoal group-hover:bg-lime transition-all">
