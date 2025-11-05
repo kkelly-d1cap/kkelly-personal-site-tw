@@ -2,6 +2,7 @@ export interface Experience {
   company: string;
   title: string;
   date: string;
+  summary?: string;
   description: string[];
   logo?: string;
 }
@@ -11,6 +12,7 @@ export const experience: Experience[] = [
     company: 'FinTech Innovations Inc.',
     title: 'VP of Operations',
     date: '2020 - Present',
+    summary: 'Leading operations strategy and execution for a high-growth FinTech platform serving enterprise clients. Responsible for all aspects of client delivery, platform operations, and team development.',
     description: [
       'Lead a team of 25+ operations professionals across client delivery, implementation, and support',
       'Scaled platform operations to support 300% growth in transaction volume',
@@ -23,6 +25,7 @@ export const experience: Experience[] = [
     company: 'PaymentTech Solutions',
     title: 'Director of Client Operations',
     date: '2017 - 2020',
+    summary: 'Built and led the client operations function for a B2B payment platform. Focused on creating scalable processes and delivering exceptional client experiences during a period of rapid expansion.',
     description: [
       'Built and managed client operations team from ground up',
       'Designed onboarding and implementation processes for enterprise clients',
@@ -35,6 +38,7 @@ export const experience: Experience[] = [
     company: 'Digital Banking Corp',
     title: 'Senior Operations Manager',
     date: '2014 - 2017',
+    summary: 'Managed operations for a digital banking platform serving retail customers. Drove process improvements and coordinated cross-functional initiatives to enhance platform stability and customer experience.',
     description: [
       'Managed day-to-day operations for digital banking platform',
       'Led process improvement initiatives across multiple departments',
@@ -47,6 +51,7 @@ export const experience: Experience[] = [
     company: 'StartupFinance',
     title: 'Operations Specialist',
     date: '2012 - 2014',
+    summary: 'Early team member supporting all aspects of operations for an early-stage fintech startup. Wore multiple hats across client support, process development, and cross-functional collaboration.',
     description: [
       'Supported operations during rapid growth phase',
       'Managed client communications and issue resolution',

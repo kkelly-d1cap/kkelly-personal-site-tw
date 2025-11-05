@@ -44,6 +44,12 @@ export default function Experience() {
                     </span>
                   </div>
 
+                  {job.summary && (
+                    <p className="text-medium-gray mb-4 leading-relaxed">
+                      {job.summary}
+                    </p>
+                  )}
+
                   <ul className="space-y-2">
                     {job.description.map((item, itemIndex) => (
                       <li key={itemIndex} className="text-medium-gray flex">
