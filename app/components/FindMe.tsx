@@ -66,7 +66,7 @@ export default function FindMe() {
               className="text-charcoal hover:text-lime transition-colors group"
               aria-label={social.name}
             >
-              <div className="p-4 bg-light-gray rounded-full border-2 border-charcoal group-hover:border-lime group-hover:bg-lime/10 transition-all">
+              <div className="p-4 bg-light-gray rounded-full border-2 border-charcoal group-hover:bg-lime transition-all">
                 {social.icon}
               </div>
             </a>
