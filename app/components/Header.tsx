@@ -27,7 +27,7 @@ export default function Header() {
 
           {/* Desktop Navigation - Centered with single pill outline */}
           <div className="hidden md:flex absolute left-1/2 -translate-x-1/2">
-            <div className="flex items-center gap-1 px-2 py-1 rounded-full border-2 border-charcoal bg-white">
+            <div className="flex items-center gap-1 px-2 py-1 rounded-full border-2 border-gray-300 bg-white">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
