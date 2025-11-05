@@ -20,16 +20,16 @@ export default function Hero() {
     <section className="bg-charcoal text-white py-20 lg:py-32">
       <Container>
         {/* Profile Section */}
-        <div className="flex items-center gap-6 mb-12">
-          <div className="relative h-24 w-24 md:h-28 md:w-28 rounded-full bg-medium-gray overflow-hidden">
+        <div className="flex items-center gap-4 mb-12">
+          <div className="relative h-16 w-16 rounded-full bg-medium-gray overflow-hidden">
             {/* Placeholder for profile photo */}
-            <div className="absolute inset-0 flex items-center justify-center text-3xl md:text-4xl font-bold">
+            <div className="absolute inset-0 flex items-center justify-center text-2xl font-bold">
               KK
             </div>
           </div>
           <div>
-            <h2 className="text-2xl md:text-3xl font-heading font-bold">{config.personal.name}</h2>
-            <p className="text-gray-400 text-base md:text-lg">{config.personal.title}</p>
+            <h2 className="text-xl font-heading font-bold">{config.personal.name}</h2>
+            <p className="text-gray-400 text-sm">{config.personal.title}</p>
           </div>
         </div>
 

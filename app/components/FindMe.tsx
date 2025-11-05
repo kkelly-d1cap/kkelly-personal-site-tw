@@ -63,13 +63,12 @@ export default function FindMe() {
               href={social.url}
               target={social.name !== 'Email' ? '_blank' : undefined}
               rel={social.name !== 'Email' ? 'noopener noreferrer' : undefined}
-              className="flex flex-col items-center gap-2 text-medium-gray hover:text-lime transition-colors group"
+              className="text-charcoal hover:text-lime transition-colors group"
               aria-label={social.name}
             >
-              <div className="p-4 bg-light-gray rounded-full group-hover:bg-lime/10 transition-colors">
+              <div className="p-4 bg-light-gray rounded-full border-2 border-charcoal group-hover:border-lime group-hover:bg-lime/10 transition-all">
                 {social.icon}
               </div>
-              <span className="text-sm font-medium">{social.name}</span>
             </a>
           ))}
         </div>
