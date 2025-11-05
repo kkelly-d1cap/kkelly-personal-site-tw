@@ -2,6 +2,7 @@
 
 import { config } from '@/content/config';
 import Container from './Container';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Hero() {
@@ -21,11 +22,15 @@ export default function Hero() {
       <Container>
         {/* Profile Section */}
         <div className="flex items-center gap-4 mb-12">
-          <div className="relative h-16 w-16 rounded-full bg-medium-gray overflow-hidden">
-            {/* Placeholder for profile photo */}
-            <div className="absolute inset-0 flex items-center justify-center text-2xl font-bold">
-              KK
-            </div>
+          <div className="relative h-16 w-16 rounded-full overflow-hidden">
+            <Image
+              src="/website_photo.png"
+              alt="Katie Kelly"
+              width={64}
+              height={64}
+              className="object-cover"
+              priority
+            />
           </div>
           <div>
             <h2 className="text-xl font-heading font-bold">{config.personal.name}</h2>
