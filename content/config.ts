@@ -23,7 +23,7 @@ export const config = {
       linkedin: 'https://linkedin.com/in/katiekelly',
       twitter: 'https://twitter.com/katiekelly',
       youtube: 'https://youtube.com/@katiekelly',
-      instagram: 'https://instagram.com/katiekelly',
+      github: 'https://github.com/katiekelly',
     },
   },
 };
