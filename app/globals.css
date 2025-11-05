@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #1C1C1C;
+  --color-light-gray: #F5F5F5;
+  --color-medium-gray: #6B6B6B;
+  --color-orange: #FF9F40;
+  --color-lime: #C5F542;
+
+  --font-family-sans: 'Inter', 'SF Pro Text', system-ui, sans-serif;
+  --font-family-heading: 'Inter', 'Avenir Next', 'Gotham Bold', sans-serif;
+  --font-family-handwritten: 'Caveat', cursive;
+}
+
+body {
+  color: var(--color-charcoal);
+  background-color: white;
+}
