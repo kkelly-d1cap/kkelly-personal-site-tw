@@ -25,17 +25,19 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex md:gap-x-2">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="px-4 py-2 rounded-full text-sm font-medium text-charcoal hover:bg-light-gray transition-colors"
-              >
-                {item.name}
-              </Link>
-            ))}
+          {/* Desktop Navigation - Centered with single pill outline */}
+          <div className="hidden md:flex absolute left-1/2 -translate-x-1/2">
+            <div className="flex items-center gap-1 px-2 py-1 rounded-full border-2 border-charcoal bg-white">
+              {navigation.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="px-4 py-2 text-sm font-medium text-charcoal hover:text-lime transition-colors"
+                >
+                  {item.name}
+                </Link>
+              ))}
+            </div>
           </div>
 
           {/* Mobile menu button */}
