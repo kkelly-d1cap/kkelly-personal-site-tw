@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Experience() {
   return (
-    <section id="experience" className="bg-light-gray pt-20 lg:pt-32 pb-6 border-b-2 border-orange">
+    <section id="experience" className="bg-light-gray pt-20 lg:pt-32 pb-12 border-b-2 border-orange">
       <Container>
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12">
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-charcoal mb-6 lg:mb-0">
@@ -79,7 +79,7 @@ export default function Experience() {
         </div>
 
         {/* Education Highlights */}
-        <div className="flex justify-center items-center gap-12 md:gap-20 mt-12 pt-8">
+        <div className="flex justify-center items-center gap-12 md:gap-20 mt-8 pt-4">
           {[
             { logo: '/NESL-150x150.jpg', alt: 'New England School of Law' },
             { logo: '/PC2-150x150.jpg', alt: 'Providence College' },
