@@ -27,13 +27,17 @@ export default function Header() {
   return (
     <header className={`sticky top-0 z-50 transition-all duration-300 ${
       isScrolled
-        ? 'bg-white/80 backdrop-blur-md shadow-sm border-b border-gray-200/50'
+        ? 'bg-white/60 backdrop-blur-md shadow-sm border-b border-gray-200/50'
         : 'bg-white border-b border-gray-200'
     }`}>
       <nav className="mx-auto max-w-7xl px-6 lg:px-8" aria-label="Top">
-        <div className="flex w-full items-center justify-between py-6">
+        <div className={`flex w-full items-center justify-between transition-all duration-300 ${
+          isScrolled ? 'py-3' : 'py-6'
+        }`}>
           <div className="flex items-center">
-            <Link href="/" className="font-heading text-4xl font-bold">
+            <Link href="/" className={`font-heading font-bold transition-all duration-300 ${
+              isScrolled ? 'text-3xl' : 'text-4xl'
+            }`}>
               <span className="text-charcoal">katie</span>
               <span className="text-medium-gray">kelly</span>
             </Link>
