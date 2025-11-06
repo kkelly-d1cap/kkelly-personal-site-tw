@@ -16,15 +16,15 @@ export default function EducationHighlights() {
           {highlights.map((item, index) => (
             <div
               key={index}
-              className="relative w-9 h-9 md:w-11 md:h-11"
-              style={{ opacity: 0.5 }}
+              className="relative w-9 h-9 md:w-11 md:h-11 bg-white rounded-sm p-1"
+              style={{ opacity: 0.4 }}
             >
               <Image
                 src={item.logo}
                 alt={item.alt}
                 width={44}
                 height={44}
-                className="object-contain grayscale brightness-0 invert"
+                className="object-contain grayscale mix-blend-multiply"
               />
             </div>
           ))}
