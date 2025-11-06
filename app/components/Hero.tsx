@@ -41,8 +41,10 @@ export default function Hero() {
 
           {/* Email Subscription Form */}
           <div className="mt-12">
-            <h3 className="text-base md:text-lg font-medium mb-4">Stay updated on monthly scaling, ops, and team-building insights</h3>
-            <div className="ml-embedded" data-form="0MASCC"></div>
+            <h3 className="text-base md:text-lg font-medium mb-2">Stay updated on monthly scaling, ops, and team-building insights</h3>
+            <div className="max-w-2xl">
+              <div className="ml-embedded" data-form="0MASCC"></div>
+            </div>
           </div>
         </div>
       </Container>

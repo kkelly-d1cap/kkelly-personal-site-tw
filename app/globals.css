@@ -16,3 +16,17 @@ body {
   color: var(--color-charcoal);
   background-color: white;
 }
+
+/* MailerLite Form Overrides */
+#mlb2-33032679.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody {
+  padding: 0 !important;
+}
+
+#mlb2-33032679.ml-form-embedContainer .ml-form-align-center {
+  text-align: left !important;
+}
+
+#mlb2-33032679.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent {
+  margin: 0 !important;
+}
+
