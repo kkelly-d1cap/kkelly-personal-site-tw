@@ -3,47 +3,29 @@ import Image from 'next/image';
 
 export default function EducationHighlights() {
   const highlights = [
-    {
-      logo: '/NESL-150x150.jpg',
-      title: 'New England School of Law',
-      subtitle: 'J.D.',
-    },
-    {
-      logo: '/PC2-150x150.jpg',
-      title: 'Providence College',
-      subtitle: 'B.A.',
-    },
-    {
-      logo: '/bbo-150x150.png',
-      title: 'Commonwealth of Massachusetts Bar',
-      subtitle: 'Law License',
-    },
-    {
-      logo: '/friar-150x150.png',
-      title: 'Providence Field Hockey',
-      subtitle: 'Div. 1 Captain',
-    },
+    { logo: '/NESL-150x150.jpg', alt: 'New England School of Law' },
+    { logo: '/PC2-150x150.jpg', alt: 'Providence College' },
+    { logo: '/bbo-150x150.png', alt: 'Commonwealth of Massachusetts Bar' },
+    { logo: '/friar-150x150.png', alt: 'Providence Field Hockey' },
   ];
 
   return (
-    <section className="bg-medium-gray py-8">
+    <section style={{ backgroundColor: '#F8F8F8' }} className="py-5">
       <Container>
-        <div className="flex flex-wrap justify-start md:justify-center items-center gap-4 md:gap-12">
+        <div className="flex justify-center items-center gap-12 md:gap-20">
           {highlights.map((item, index) => (
-            <div key={index} className="flex items-center gap-3">
-              <div className="relative w-12 h-12 flex-shrink-0 bg-white rounded-md p-1 shadow-sm">
-                <Image
-                  src={item.logo}
-                  alt={item.title}
-                  width={48}
-                  height={48}
-                  className="object-contain mix-blend-multiply"
-                />
-              </div>
-              <div>
-                <p className="text-white text-sm font-medium">{item.title}</p>
-                <p className="text-lime text-xs">{item.subtitle}</p>
-              </div>
+            <div
+              key={index}
+              className="relative w-9 h-9 md:w-11 md:h-11"
+              style={{ opacity: 0.35 }}
+            >
+              <Image
+                src={item.logo}
+                alt={item.alt}
+                width={44}
+                height={44}
+                className="object-contain grayscale"
+              />
             </div>
           ))}
         </div>
