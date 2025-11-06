@@ -33,7 +33,7 @@ export default function FindMe() {
   ];
 
   return (
-    <section id="contact" className="bg-white py-12 lg:py-16">
+    <section id="contact" className="bg-white pt-16 lg:pt-24 pb-12 lg:pb-16">
       <Container>
         <h2 className="font-handwritten text-4xl md:text-5xl mb-8 text-center text-charcoal">
           Find Me

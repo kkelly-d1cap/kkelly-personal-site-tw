@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Experience() {
   return (
-    <section id="experience" className="bg-light-gray py-20 lg:py-32">
+    <section id="experience" className="bg-light-gray pt-20 lg:pt-32 pb-8">
       <Container>
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12">
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-charcoal mb-6 lg:mb-0">
