@@ -21,6 +21,7 @@ export const config = {
     email: 'hello@katiekelly.com',
     social: {
       linkedin: 'https://www.linkedin.com/in/katherinemkelly/',
+      youtube: '#', // Placeholder - update when ready
       github: 'https://github.com/kkelly-d1cap',
     },
   },
