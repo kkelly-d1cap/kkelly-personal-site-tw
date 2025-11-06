@@ -25,7 +25,7 @@ export const experience: Experience[] = [
   },
   {
     company: 'iCapital',
-    title: 'Senior Vice President',
+    title: 'Vice President',
     date: '2021 - 2023',
     summary: 'Led client success and implementation for enterprise clients, coordinating across Product, Engineering, and Sales to drive seamless onboarding and adoption. Developed scalable processes and performance frameworks that enabled consistent delivery and repeatable customer outcomes.',
     logo: '/icapital_logo.jpg',
