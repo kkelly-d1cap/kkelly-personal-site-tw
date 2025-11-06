@@ -10,7 +10,7 @@ export default function EducationHighlights() {
   ];
 
   return (
-    <section className="bg-medium-gray py-5">
+    <section className="bg-white py-5">
       <Container>
         <div className="flex justify-center items-center gap-12 md:gap-20">
           {highlights.map((item, index) => (
