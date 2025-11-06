@@ -8,13 +8,37 @@ import { useState } from 'react';
 export default function Hero() {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Integrate with email service (Mailchimp, ConvertKit, etc.)
-    console.log('Email submitted:', email);
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 3000);
+    setLoading(true);
+    setError('');
+
+    try {
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to subscribe');
+      }
+
+      setSubmitted(true);
+      setEmail('');
+      setTimeout(() => setSubmitted(false), 5000);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'An error occurred');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -67,13 +91,17 @@ export default function Hero() {
               />
               <button
                 type="submit"
-                className="bg-lime text-charcoal font-medium px-6 py-2 sm:py-3 text-sm sm:text-base rounded-md hover:bg-opacity-90 transition-all whitespace-nowrap"
+                disabled={loading}
+                className="bg-lime text-charcoal font-medium px-6 py-2 sm:py-3 text-sm sm:text-base rounded-md hover:bg-opacity-90 transition-all whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Subscribe
+                {loading ? 'Subscribing...' : 'Subscribe'}
               </button>
             </form>
             {submitted && (
               <p className="text-lime mt-2 text-sm">Thanks for subscribing!</p>
+            )}
+            {error && (
+              <p className="text-red-400 mt-2 text-sm">{error}</p>
             )}
           </div>
         </div>
