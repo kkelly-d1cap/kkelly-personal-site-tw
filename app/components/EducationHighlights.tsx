@@ -31,13 +31,13 @@ export default function EducationHighlights() {
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
           {highlights.map((item, index) => (
             <div key={index} className="flex items-center gap-3">
-              <div className="relative w-12 h-12 flex-shrink-0">
+              <div className="relative w-12 h-12 flex-shrink-0 bg-white rounded-md p-1">
                 <Image
                   src={item.logo}
                   alt={item.title}
                   width={48}
                   height={48}
-                  className="object-contain"
+                  className="object-contain mix-blend-multiply"
                 />
               </div>
               <div>
