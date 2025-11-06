@@ -26,7 +26,7 @@ export default function EducationHighlights() {
   ];
 
   return (
-    <section style={{ backgroundColor: '#FF9F40' }} className="py-8">
+    <section className="bg-medium-gray py-8">
       <Container>
         <div className="flex flex-wrap justify-start md:justify-center items-center gap-4 md:gap-12">
           {highlights.map((item, index) => (
@@ -41,8 +41,8 @@ export default function EducationHighlights() {
                 />
               </div>
               <div>
-                <p className="text-charcoal text-sm font-medium">{item.title}</p>
-                <p className="text-white text-xs">{item.subtitle}</p>
+                <p className="text-white text-sm font-medium">{item.title}</p>
+                <p className="text-lime text-xs">{item.subtitle}</p>
               </div>
             </div>
           ))}
