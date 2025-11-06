@@ -4,22 +4,22 @@ import Image from 'next/image';
 export default function EducationHighlights() {
   const highlights = [
     {
-      logo: '/nesl-logo.jpg',
+      logo: '/NESL-150x150.jpg',
       title: 'New England School of Law',
       subtitle: 'J.D.',
     },
     {
-      logo: '/providence-college-logo.jpg',
+      logo: '/PC2-150x150.jpg',
       title: 'Providence College',
       subtitle: 'B.A.',
     },
     {
-      logo: '/mass-bar-logo.png',
+      logo: '/bbo-150x150.png',
       title: 'Commonwealth of Massachusetts Bar',
       subtitle: 'Law License',
     },
     {
-      logo: '/providence-hockey-logo.png',
+      logo: '/friar-150x150.png',
       title: 'Providence Field Hockey',
       subtitle: 'Div. 1 Captain',
     },

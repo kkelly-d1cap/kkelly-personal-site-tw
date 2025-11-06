@@ -1,5 +1,6 @@
 import { experience } from '@/content/experience';
 import Container from './Container';
+import Image from 'next/image';
 
 export default function Experience() {
   return (
@@ -33,11 +34,24 @@ export default function Experience() {
 
                 <div className="bg-white rounded-lg shadow-md p-6">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                    <div>
-                      <h3 className="text-2xl font-heading font-bold text-charcoal">
-                        {job.title}
-                      </h3>
-                      <p className="text-lg text-medium-gray">{job.company}</p>
+                    <div className="flex items-center gap-4">
+                      {job.logo && (
+                        <div className="relative w-12 h-12 flex-shrink-0">
+                          <Image
+                            src={job.logo}
+                            alt={`${job.company} logo`}
+                            width={48}
+                            height={48}
+                            className="object-contain"
+                          />
+                        </div>
+                      )}
+                      <div>
+                        <h3 className="text-2xl font-heading font-bold text-charcoal">
+                          {job.title}
+                        </h3>
+                        <p className="text-lg text-medium-gray">{job.company}</p>
+                      </div>
                     </div>
                     <span className="text-sm text-medium-gray bg-light-gray px-4 py-2 rounded-full mt-2 md:mt-0 self-start md:self-auto">
                       {job.date}
