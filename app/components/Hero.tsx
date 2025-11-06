@@ -55,7 +55,7 @@ export default function Hero() {
 
           {/* Email Subscription Form */}
           <div className="mt-12">
-            <h3 className="text-base md:text-lg font-medium mb-4">Stay updated with my latest insights</h3>
+            <h3 className="text-base md:text-lg font-medium mb-4">Stay updated on monthly scaling, ops, and team-building insights</h3>
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-2xl">
               <input
                 type="email"
