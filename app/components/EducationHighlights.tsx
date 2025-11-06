@@ -10,21 +10,21 @@ export default function EducationHighlights() {
   ];
 
   return (
-    <section style={{ backgroundColor: '#F8F8F8' }} className="py-5">
+    <section className="bg-medium-gray py-5">
       <Container>
         <div className="flex justify-center items-center gap-12 md:gap-20">
           {highlights.map((item, index) => (
             <div
               key={index}
               className="relative w-9 h-9 md:w-11 md:h-11"
-              style={{ opacity: 0.35 }}
+              style={{ opacity: 0.5 }}
             >
               <Image
                 src={item.logo}
                 alt={item.alt}
                 width={44}
                 height={44}
-                className="object-contain grayscale"
+                className="object-contain grayscale brightness-0 invert"
               />
             </div>
           ))}
