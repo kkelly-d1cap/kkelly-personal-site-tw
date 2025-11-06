@@ -20,10 +20,8 @@ export const config = {
   contact: {
     email: 'hello@katiekelly.com',
     social: {
-      linkedin: 'https://linkedin.com/in/katiekelly',
-      twitter: 'https://twitter.com/katiekelly',
-      youtube: 'https://youtube.com/@katiekelly',
-      github: 'https://github.com/katiekelly',
+      linkedin: 'https://www.linkedin.com/in/katherinemkelly/',
+      github: 'https://github.com/kkelly-d1cap',
     },
   },
 };
