@@ -16,7 +16,7 @@ export default function EducationHighlights() {
           {highlights.map((item, index) => (
             <div
               key={index}
-              className="relative w-9 h-9 md:w-11 md:h-11 bg-white rounded-sm p-1"
+              className="relative w-9 h-9 md:w-11 md:h-11 bg-light-gray rounded-sm p-1"
               style={{ opacity: 0.4 }}
             >
               <Image
