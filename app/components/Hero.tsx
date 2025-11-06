@@ -1,22 +1,8 @@
-'use client';
-
 import { config } from '@/content/config';
 import Container from './Container';
 import Image from 'next/image';
-import { useState } from 'react';
 
 export default function Hero() {
-  const [email, setEmail] = useState('');
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // TODO: Integrate with email service (Mailchimp, ConvertKit, etc.)
-    console.log('Email submitted:', email);
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 3000);
-  };
-
   return (
     <section className="bg-charcoal text-white py-20 lg:py-32">
       <Container>
@@ -55,26 +41,8 @@ export default function Hero() {
 
           {/* Email Subscription Form */}
           <div className="mt-12">
-            <h3 className="text-base md:text-lg font-medium mb-4">Stay updated with my latest insights</h3>
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-2xl">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="email address"
-                className="flex-1 px-3 py-2 sm:px-4 sm:py-3 text-sm sm:text-base rounded-md bg-transparent border-2 border-lime text-white placeholder:text-lime focus:outline-none focus:ring-2 focus:ring-lime"
-                required
-              />
-              <button
-                type="submit"
-                className="bg-lime text-charcoal font-medium px-6 py-2 sm:py-3 text-sm sm:text-base rounded-md hover:bg-opacity-90 transition-all whitespace-nowrap"
-              >
-                Subscribe
-              </button>
-            </form>
-            {submitted && (
-              <p className="text-lime mt-2 text-sm">Thanks for subscribing!</p>
-            )}
+            <h3 className="text-base md:text-lg font-medium mb-4">Stay updated on monthly scaling, ops, and team-building insights</h3>
+            <div className="ml-embedded" data-form="0MASCC"></div>
           </div>
         </div>
       </Container>
