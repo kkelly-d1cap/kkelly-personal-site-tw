@@ -10,7 +10,7 @@ export default function Experience() {
             Experience
           </h2>
           <a
-            href="/resume.pdf"
+            href="/KatieKelly_CV_2025.pdf"
             download
             className="bg-lime text-charcoal font-medium px-6 py-3 rounded-md hover:bg-opacity-90 transition-all inline-flex items-center gap-2"
           >
