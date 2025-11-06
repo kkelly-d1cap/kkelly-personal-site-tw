@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Experience() {
   return (
-    <section id="experience" className="bg-light-gray pt-20 lg:pt-32 pb-6">
+    <section id="experience" className="bg-light-gray pt-20 lg:pt-32 pb-6 border-b-2 border-orange">
       <Container>
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12">
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-charcoal mb-6 lg:mb-0">
@@ -78,8 +78,32 @@ export default function Experience() {
           </div>
         </div>
 
+        {/* Education Highlights */}
+        <div className="flex justify-center items-center gap-12 md:gap-20 mt-12 pt-8 border-t border-medium-gray/20">
+          {[
+            { logo: '/NESL-150x150.jpg', alt: 'New England School of Law' },
+            { logo: '/PC2-150x150.jpg', alt: 'Providence College' },
+            { logo: '/bbo-150x150.png', alt: 'Commonwealth of Massachusetts Bar' },
+            { logo: '/friar-150x150.png', alt: 'Providence Field Hockey' },
+          ].map((item, index) => (
+            <div
+              key={index}
+              className="relative w-9 h-9 md:w-11 md:h-11 bg-light-gray rounded-sm p-1"
+              style={{ opacity: 0.4 }}
+            >
+              <Image
+                src={item.logo}
+                alt={item.alt}
+                width={44}
+                height={44}
+                className="object-contain grayscale mix-blend-multiply"
+              />
+            </div>
+          ))}
+        </div>
+
         {/* CV Download Note */}
-        <div className="flex items-center justify-center gap-2 mt-8 pt-4 pb-0 border-t border-medium-gray/20">
+        <div className="flex items-center justify-center gap-2 mt-6 pt-4 pb-0 border-t border-medium-gray/20">
           <svg className="w-4 h-4 text-medium-gray" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
           </svg>
