@@ -80,7 +80,7 @@ export default function FeaturedProject({
                   {heroMetrics.teamSize}
                 </div>
                 <div className="text-sm md:text-base text-medium-gray font-medium">
-                  Team Size
+                  Headcount
                 </div>
               </div>
             </div>
