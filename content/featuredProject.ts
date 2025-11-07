@@ -49,21 +49,21 @@ export const featuredProject = {
       metrics: [
         {
           label: "Client Implementations",
-          before: "",
-          after: "",
-          change: "+10%"
+          before: "44",
+          after: "48",
+          change: "+9%"
         },
         {
           label: "Product Onboarding",
-          before: "",
-          after: "",
-          change: "+30%"
+          before: "248",
+          after: "327",
+          change: "+32%"
         },
         {
           label: "Support Tickets",
-          before: "",
-          after: "",
-          change: "+15%"
+          before: "9,289",
+          after: "10,807",
+          change: "+16%"
         }
       ]
     },
