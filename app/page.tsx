@@ -1,10 +1,11 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
-import Work from './components/Work';
+import FeaturedProject from './components/FeaturedProject';
 import Experience from './components/Experience';
 import FindMe from './components/FindMe';
 import Footer from './components/Footer';
+import { featuredProject } from '@/content/featuredProject';
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Work />
+        <FeaturedProject {...featuredProject} />
         <Experience />
         <FindMe />
       </main>
