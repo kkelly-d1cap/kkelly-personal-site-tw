@@ -1,5 +1,5 @@
 export const featuredProject = {
-  headline: "Scaled Operations by 60%: More Output with Fewer Resources",
+  headline: "Scaled Operations for SMB and Mid-Market Clients by 60%: More Output with Fewer Resources",
 
   situation: "Led operations for a rapidly growing fintech sub-team at a Unicorn FinTech Company during a critical scaling phase. The team was underwater.",
 
@@ -48,22 +48,16 @@ export const featuredProject = {
       title: "Operational Output (Did more)",
       metrics: [
         {
-          label: "Client Implementations",
-          before: "44",
-          after: "48",
-          change: "+9%"
-        },
-        {
-          label: "Product Onboarding",
-          before: "248",
-          after: "327",
-          change: "+32%"
+          label: "Implementation & Onboarding",
+          before: "300",
+          after: "400",
+          change: "+30%"
         },
         {
           label: "Support Tickets",
-          before: "9,289",
-          after: "10,807",
-          change: "+16%"
+          before: "9,000",
+          after: "10,500",
+          change: "+15%"
         }
       ]
     },
@@ -81,12 +75,7 @@ export const featuredProject = {
           before: "394",
           after: "629",
           change: "+60%"
-        }
-      ]
-    },
-    {
-      title: "Speed & Quality",
-      metrics: [
+        },
         {
           label: "Training Time",
           before: "3-6 months",
