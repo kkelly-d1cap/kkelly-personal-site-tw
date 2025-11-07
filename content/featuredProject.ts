@@ -43,46 +43,36 @@ export const featuredProject = {
     teamSize: "-25%"
   },
 
-  detailedMetrics: [
+  metrics: [
     {
-      title: "Operational Output (Did more)",
-      metrics: [
-        {
-          label: "Implementation & Onboarding",
-          before: "300",
-          after: "400",
-          change: "+30%"
-        },
-        {
-          label: "Support Tickets",
-          before: "9,000",
-          after: "10,500",
-          change: "+15%"
-        }
-      ]
+      label: "Implementation & Onboarding",
+      before: "300",
+      after: "400",
+      change: "+30%"
     },
     {
-      title: "Resource Efficiency (With less)",
-      metrics: [
-        {
-          label: "Headcount",
-          before: "27",
-          after: "20",
-          change: "-25%"
-        },
-        {
-          label: "Hours per Employee",
-          before: "394",
-          after: "629",
-          change: "+60%"
-        },
-        {
-          label: "Training Time",
-          before: "3-6 months",
-          after: "3-4 weeks",
-          change: "-75%"
-        }
-      ]
+      label: "Support Tickets",
+      before: "9,000",
+      after: "10,500",
+      change: "+15%"
+    },
+    {
+      label: "Headcount",
+      before: "27",
+      after: "20",
+      change: "-25%"
+    },
+    {
+      label: "Hours per Employee",
+      before: "394",
+      after: "629",
+      change: "+60%"
+    },
+    {
+      label: "Training Time",
+      before: "3-6 months",
+      after: "3-4 weeks",
+      change: "-75%"
     }
   ],
 

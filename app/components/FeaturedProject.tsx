@@ -22,10 +22,7 @@ interface FeaturedProjectProps {
     output: string;
     teamSize: string;
   };
-  detailedMetrics: {
-    title: string;
-    metrics: Metric[];
-  }[];
+  metrics: Metric[];
   timeframe: string;
   impact: string;
 }
@@ -38,7 +35,7 @@ export default function FeaturedProject({
   approachSteps,
   coreInsight,
   heroMetrics,
-  detailedMetrics,
+  metrics,
   timeframe,
   impact,
 }: FeaturedProjectProps) {
@@ -137,61 +134,53 @@ export default function FeaturedProject({
           </div>
 
           {/* Key Metrics */}
-          <div className="space-y-8">
-            <h4 className="text-2xl font-heading font-bold text-charcoal">
-              Key Metrics
-            </h4>
-
-            <div className="space-y-8">
-              {detailedMetrics.map((section, sectionIndex) => (
-                <div key={sectionIndex} className="space-y-4">
-                  <h5 className="text-lg font-heading font-bold text-charcoal">
-                    {section.title}
-                  </h5>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {section.metrics.map((metric, metricIndex) => (
-                      <div
-                        key={metricIndex}
-                        className="bg-white border-2 border-light-gray p-4 rounded-lg hover:border-orange transition-colors"
-                      >
-                        <div className="text-sm text-medium-gray mb-2">
-                          {metric.label}
-                        </div>
-                        {metric.before && metric.after ? (
-                          <>
-                            <div className="flex items-baseline gap-2 mb-1">
-                              <span className="text-xl text-charcoal font-bold">
-                                {metric.before}
-                              </span>
-                              <span className="text-orange font-bold">→</span>
-                              <span className="text-xl text-charcoal font-bold">
-                                {metric.after}
-                              </span>
-                            </div>
-                            <div className="text-sm font-bold text-orange">
-                              {metric.change}
-                            </div>
-                          </>
-                        ) : (
-                          <div className="text-3xl font-bold text-orange">
-                            {metric.change}
-                          </div>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))}
+          <div className="space-y-6">
+            <div className="flex items-center justify-between">
+              <h4 className="text-2xl font-heading font-bold text-charcoal">
+                Key Metrics
+              </h4>
+              {/* Timeframe */}
+              <div className="bg-light-gray p-3 rounded-lg">
+                <span className="text-sm text-medium-gray font-medium">
+                  Timeframe:
+                </span>
+                <span className="text-charcoal font-bold ml-2">
+                  {timeframe}
+                </span>
+              </div>
             </div>
 
-            {/* Timeframe */}
-            <div className="bg-light-gray p-4 rounded-lg inline-block">
-              <span className="text-sm text-medium-gray font-medium">
-                Timeframe:
-              </span>
-              <span className="text-charcoal font-bold ml-2">
-                {timeframe}
-              </span>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {metrics.map((metric, index) => (
+                <div
+                  key={index}
+                  className="bg-white border-2 border-light-gray p-4 rounded-lg hover:border-orange transition-colors"
+                >
+                  <div className="text-sm text-medium-gray mb-2">
+                    {metric.label}
+                  </div>
+                  {metric.before && metric.after ? (
+                    <>
+                      <div className="flex items-baseline gap-2 mb-1">
+                        <span className="text-xl text-charcoal font-bold">
+                          {metric.before}
+                        </span>
+                        <span className="text-orange font-bold">→</span>
+                        <span className="text-xl text-charcoal font-bold">
+                          {metric.after}
+                        </span>
+                      </div>
+                      <div className="text-sm font-bold text-orange">
+                        {metric.change}
+                      </div>
+                    </>
+                  ) : (
+                    <div className="text-3xl font-bold text-orange">
+                      {metric.change}
+                    </div>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
 
