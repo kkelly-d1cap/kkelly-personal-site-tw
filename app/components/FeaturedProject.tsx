@@ -46,7 +46,7 @@ export default function FeaturedProject({
     <section id="work" className="bg-white py-20 lg:py-32">
       <Container>
         <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-          Featured Work
+          Impact
         </h2>
 
         {/* Project Showcase */}
@@ -157,18 +157,26 @@ export default function FeaturedProject({
                         <div className="text-sm text-medium-gray mb-2">
                           {metric.label}
                         </div>
-                        <div className="flex items-baseline gap-2 mb-1">
-                          <span className="text-xl text-charcoal font-bold">
-                            {metric.before}
-                          </span>
-                          <span className="text-orange font-bold">→</span>
-                          <span className="text-xl text-charcoal font-bold">
-                            {metric.after}
-                          </span>
-                        </div>
-                        <div className="text-sm font-bold text-orange">
-                          {metric.change}
-                        </div>
+                        {metric.before && metric.after ? (
+                          <>
+                            <div className="flex items-baseline gap-2 mb-1">
+                              <span className="text-xl text-charcoal font-bold">
+                                {metric.before}
+                              </span>
+                              <span className="text-orange font-bold">→</span>
+                              <span className="text-xl text-charcoal font-bold">
+                                {metric.after}
+                              </span>
+                            </div>
+                            <div className="text-sm font-bold text-orange">
+                              {metric.change}
+                            </div>
+                          </>
+                        ) : (
+                          <div className="text-3xl font-bold text-orange">
+                            {metric.change}
+                          </div>
+                        )}
                       </div>
                     ))}
                   </div>

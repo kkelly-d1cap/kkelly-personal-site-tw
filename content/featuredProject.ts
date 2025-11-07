@@ -1,7 +1,7 @@
 export const featuredProject = {
   headline: "Scaled Operations by 62%: 19% More Output with 26% Fewer Resources",
 
-  situation: "Led operations for a rapidly growing fintech sub-team at iCapital during a critical scaling phase. The team was underwater.",
+  situation: "Led operations for a rapidly growing fintech sub-team at a Unicorn FinTech Company during a critical scaling phase. The team was underwater.",
 
   challenges: [
     "Comingled functions created cognitive overload and increased error rates",
@@ -35,7 +35,7 @@ export const featuredProject = {
     }
   ],
 
-  coreInsight: "Treat lack of documentation in services like material shortages in manufacturing—it's a fundamental operational gap that must be filled.",
+  coreInsight: "Treat lack of documentation in services like material shortages in manufacturing. It's a fundamental operational gap that must be filled.",
 
   heroMetrics: {
     efficiency: "+62%",
@@ -49,20 +49,20 @@ export const featuredProject = {
       metrics: [
         {
           label: "Client Implementations",
-          before: "44",
-          after: "48",
+          before: "",
+          after: "",
           change: "+9%"
         },
         {
           label: "Product Onboarding",
-          before: "248",
-          after: "327",
+          before: "",
+          after: "",
           change: "+32%"
         },
         {
           label: "Support Tickets",
-          before: "9,289",
-          after: "10,807",
+          before: "",
+          after: "",
           change: "+16%"
         }
       ]
@@ -97,7 +97,7 @@ export const featuredProject = {
     }
   ],
 
-  timeframe: "12-18 months (2022-2023)",
+  timeframe: "12-18 months",
 
-  impact: "This framework became the operational blueprint—proving that excellence isn't about working harder, but building intelligent systems that scale."
+  impact: "This framework became the operational blueprint, proving that excellence isn't about working harder, but building intelligent systems that scale."
 };
