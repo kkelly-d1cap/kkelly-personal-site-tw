@@ -1,5 +1,5 @@
 export const featuredProject = {
-  headline: "Scaled Operations by 62%: 19% More Output with 26% Fewer Resources",
+  headline: "Scaled Operations by 60%: More Output with Fewer Resources",
 
   situation: "Led operations for a rapidly growing fintech sub-team at a Unicorn FinTech Company during a critical scaling phase. The team was underwater.",
 
@@ -38,9 +38,9 @@ export const featuredProject = {
   coreInsight: "Treat lack of documentation in services like material shortages in manufacturing. It's a fundamental operational gap that must be filled.",
 
   heroMetrics: {
-    efficiency: "+62%",
-    output: "+19%",
-    teamSize: "-26%"
+    efficiency: "+60%",
+    output: "+20%",
+    teamSize: "-25%"
   },
 
   detailedMetrics: [
@@ -51,19 +51,19 @@ export const featuredProject = {
           label: "Client Implementations",
           before: "",
           after: "",
-          change: "+9%"
+          change: "+10%"
         },
         {
           label: "Product Onboarding",
           before: "",
           after: "",
-          change: "+32%"
+          change: "+30%"
         },
         {
           label: "Support Tickets",
           before: "",
           after: "",
-          change: "+16%"
+          change: "+15%"
         }
       ]
     },
@@ -71,10 +71,10 @@ export const featuredProject = {
       title: "Resource Efficiency (With less)",
       metrics: [
         {
-          label: "Team Size",
+          label: "Headcount",
           before: "27",
           after: "20",
-          change: "-26%"
+          change: "-25%"
         },
         {
           label: "Hours per Employee",
