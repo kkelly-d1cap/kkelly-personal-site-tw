@@ -568,7 +568,7 @@ export default function RampApplication() {
 
           {/* Signature */}
           <div className="text-center text-charcoal font-handwritten mt-12">
-            <p className="text-2xl">Peace + Ops,</p>
+            <p className="text-2xl">Thank you,</p>
             <p className="text-4xl md:text-5xl font-bold">Katie Kelly</p>
           </div>
         </Container>
