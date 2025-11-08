@@ -91,7 +91,7 @@ export default function RampApplication() {
                 Built & Scaled High-Performing Teams
               </h3>
               <p className="text-medium-gray">
-                Grew a customer success organization from 8 to 25+ professionals with 2 management layers, establishing frameworks for hiring, training, and career development that scale.
+                Grew a customer success organization from ground up to 25+ professionals with 2 management layers, establishing frameworks for hiring, training, and client delivery that scale.
               </p>
             </div>
 
@@ -100,16 +100,7 @@ export default function RampApplication() {
                 Proven Activation & Onboarding Expertise
               </h3>
               <p className="text-medium-gray">
-                Created 5-part operational framework that reduced onboarding time from 3-6 months to 3-4 weeks while increasing output 20% and improving quality.
-              </p>
-            </div>
-
-            <div className="bg-light-gray p-6 rounded-lg">
-              <h3 className="font-heading font-bold text-xl text-charcoal mb-3">
-                Metrics-Driven Leader
-              </h3>
-              <p className="text-medium-gray">
-                Achieved 60% efficiency improvement through data-driven decision making. Built reporting infrastructure (Excel → Tableau) that provided real-time visibility into activation, adoption, and team performance.
+                Reduced client implementation timelines from 6 weeks to 10 days while doubling output and maintaining headcount. Created 5-part operational framework focused on speed, quality, and repeatability at scale.
               </p>
             </div>
 
@@ -118,7 +109,16 @@ export default function RampApplication() {
                 Multi-Segment Experience
               </h3>
               <p className="text-medium-gray">
-                Successfully scaled operations across Enterprise, Mid-Market, and SMB segments with tier-specific playbooks, coverage ratios, and SLAs ensuring quality at every level.
+                Successfully scaled operations across hundreds of Enterprise, Mid-Market, and SMB clients with tier-specific playbooks, coverage ratios, and SLAs ensuring quality at every level.
+              </p>
+            </div>
+
+            <div className="bg-light-gray p-6 rounded-lg">
+              <h3 className="font-heading font-bold text-xl text-charcoal mb-3">
+                FinTech Background
+              </h3>
+              <p className="text-medium-gray">
+                Deep experience at iCapital (alternative investment fintech platform) serving wealth managers, advisors, and asset managers - understand the complexities of financial services operations.
               </p>
             </div>
 
@@ -133,10 +133,10 @@ export default function RampApplication() {
 
             <div className="bg-light-gray p-6 rounded-lg">
               <h3 className="font-heading font-bold text-xl text-charcoal mb-3">
-                FinTech Background
+                Metrics-Driven Leader
               </h3>
               <p className="text-medium-gray">
-                Deep experience at iCapital (alternative investment fintech platform) serving wealth managers, advisors, and asset managers - understand the complexities of financial services operations.
+                Achieved 60% efficiency improvement through data-driven decision making. Built reporting infrastructure (Excel → Tableau) that provided real-time visibility into activation, adoption, and team performance.
               </p>
             </div>
           </div>
