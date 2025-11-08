@@ -2,10 +2,13 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import { useRouter, usePathname } from 'next/navigation';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
 
   const navigation = [
     { name: 'About', href: '/#about' },
@@ -23,6 +26,37 @@ export default function Header() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+
+    // If it's the blog link, just navigate normally
+    if (href === '/blog') {
+      router.push(href);
+      return;
+    }
+
+    // Extract the hash from the href
+    const hash = href.split('#')[1];
+
+    // If we're not on the home page, navigate there first
+    if (pathname !== '/') {
+      router.push('/');
+      // Wait for navigation to complete, then scroll
+      setTimeout(() => {
+        const element = document.getElementById(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      // Already on home page, just scroll
+      const element = document.getElementById(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
 
   return (
     <header className={`sticky top-0 z-50 transition-all duration-300 ${
@@ -50,6 +84,7 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
+                  onClick={(e) => handleNavClick(e, item.href)}
                   className="text-sm font-medium text-charcoal hover:text-orange transition-colors"
                 >
                   {item.name}
@@ -82,7 +117,10 @@ export default function Header() {
                   key={item.name}
                   href={item.href}
                   className="block py-2 text-base font-medium text-charcoal hover:text-orange transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
+                  onClick={(e) => {
+                    handleNavClick(e, item.href);
+                    setMobileMenuOpen(false);
+                  }}
                 >
                   {item.name}
                 </Link>
