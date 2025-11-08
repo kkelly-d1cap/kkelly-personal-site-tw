@@ -12,7 +12,7 @@ export default function RampApplication() {
             {/* Back to main site */}
             <Link
               href="/"
-              className="bg-lime text-charcoal font-medium px-4 py-2 rounded-full inline-flex items-center gap-2 mb-8 transition-all hover:bg-lime/90"
+              className="bg-gray-600 text-gray-300 font-medium px-4 py-2 rounded-full inline-flex items-center gap-2 mb-8 transition-all hover:bg-gray-500"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -78,11 +78,11 @@ export default function RampApplication() {
         </Container>
       </section>
 
-      {/* Why I'm the Right Fit */}
+      {/* Why We Are the Right Fit */}
       <section className="bg-white py-16 lg:py-24">
         <Container>
           <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-            Why I'm the Right Fit
+            Why We Are the Right Fit
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -563,15 +563,15 @@ export default function RampApplication() {
 
           {/* Thank You Note */}
           <div className="bg-charcoal text-white p-8 rounded-lg mt-12">
-            <p className="text-xl md:text-2xl leading-relaxed mb-6">
+            <p className="text-xl md:text-2xl leading-relaxed">
               Thank you for considering my application. I'm excited about the opportunity to bring my experience scaling customer success organizations to Ramp and help build world-class onboarding and activation for your growing customer base.
             </p>
-            {/* Signature */}
-            <div className="flex justify-end mt-8">
-              <p className="font-handwritten text-4xl text-orange">
-                Katie Kelly
-              </p>
-            </div>
+          </div>
+
+          {/* Signature */}
+          <div className="text-center text-charcoal font-handwritten mt-12">
+            <p className="text-2xl">Peace + Ops,</p>
+            <p className="text-4xl md:text-5xl font-bold">Katie Kelly</p>
           </div>
         </Container>
       </section>
