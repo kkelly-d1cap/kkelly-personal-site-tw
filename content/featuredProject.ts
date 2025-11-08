@@ -5,7 +5,7 @@ export const featuredProject = {
 
   challenges: [
     "Comingled functions created cognitive overload and increased error rates",
-    "Resource pressure to do more with less—increase output while reducing headcount",
+    "Resource pressure to do more with less: increase output while reducing headcount",
     "3-6 month training cycles meant new hires were expensive and error-prone for half a year",
     "No measurement system to identify bottlenecks or track improvements"
   ],

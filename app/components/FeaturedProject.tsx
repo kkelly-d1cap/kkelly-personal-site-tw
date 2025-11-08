@@ -135,12 +135,12 @@ export default function FeaturedProject({
 
           {/* Key Metrics */}
           <div className="space-y-6">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
               <h4 className="text-2xl font-heading font-bold text-charcoal">
                 Key Metrics
               </h4>
               {/* Timeframe */}
-              <div className="bg-light-gray p-3 rounded-lg">
+              <div className="bg-light-gray p-3 rounded-lg w-fit">
                 <span className="text-sm text-medium-gray font-medium">
                   Timeframe:
                 </span>
