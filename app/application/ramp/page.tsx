@@ -17,7 +17,7 @@ export default function RampApplication() {
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
               </svg>
-              View Full Portfolio
+              View Full Site
             </Link>
 
             <div className="mb-8">
@@ -72,7 +72,7 @@ export default function RampApplication() {
 
             {/* Transition statement */}
             <p className="text-xl md:text-2xl text-orange font-handwritten leading-relaxed">
-              Ready to lead Ramp's ~75-person customer success organization and drive industry-leading activation performance
+              Ready to lead Ramp's ~75-person customer success organization and drive industry-leading performance
             </p>
           </div>
         </Container>
@@ -526,61 +526,52 @@ export default function RampApplication() {
             Resources & Contact
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Downloads */}
-            <div className="bg-light-gray p-8 rounded-lg">
-              <h3 className="font-heading font-bold text-xl text-charcoal mb-6">
-                Downloads
-              </h3>
-              <div className="space-y-4">
-                <a
-                  href="/KatieKelly_CV_2025.pdf"
-                  download
-                  className="flex items-center gap-3 text-orange hover:text-orange/80 font-medium transition-colors"
-                >
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                  </svg>
-                  Download Full CV
-                </a>
-              </div>
-            </div>
-
-            {/* Contact */}
-            <div className="bg-light-gray p-8 rounded-lg">
-              <h3 className="font-heading font-bold text-xl text-charcoal mb-6">
-                Connect
-              </h3>
-              <div className="space-y-4">
-                <a
-                  href="https://www.linkedin.com/in/katherinemkelly/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-orange hover:text-orange/80 font-medium transition-colors"
-                >
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
-                  </svg>
-                  LinkedIn Profile
-                </a>
-                <a
-                  href="/"
-                  className="flex items-center gap-3 text-orange hover:text-orange/80 font-medium transition-colors"
-                >
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-                  </svg>
-                  Full Portfolio Site
-                </a>
-              </div>
+          <div className="bg-light-gray p-8 rounded-lg max-w-2xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <a
+                href="/KatieKelly_CV_2025.pdf"
+                download
+                className="flex flex-col items-center gap-2 text-orange hover:text-orange/80 font-medium transition-colors text-center"
+              >
+                <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
+                <span className="text-sm">Download Full CV</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/katherinemkelly/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center gap-2 text-orange hover:text-orange/80 font-medium transition-colors text-center"
+              >
+                <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                </svg>
+                <span className="text-sm">LinkedIn Profile</span>
+              </a>
+              <a
+                href="/"
+                className="flex flex-col items-center gap-2 text-orange hover:text-orange/80 font-medium transition-colors text-center"
+              >
+                <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                </svg>
+                <span className="text-sm">Full Personal Site</span>
+              </a>
             </div>
           </div>
 
           {/* Thank You Note */}
           <div className="bg-charcoal text-white p-8 rounded-lg mt-12">
-            <p className="text-xl md:text-2xl leading-relaxed">
+            <p className="text-xl md:text-2xl leading-relaxed mb-6">
               Thank you for considering my application. I'm excited about the opportunity to bring my experience scaling customer success organizations to Ramp and help build world-class onboarding and activation for your growing customer base.
             </p>
+            {/* Signature */}
+            <div className="flex justify-end mt-8">
+              <p className="font-handwritten text-4xl text-orange">
+                Katie Kelly
+              </p>
+            </div>
           </div>
         </Container>
       </section>
