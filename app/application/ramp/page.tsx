@@ -9,17 +9,6 @@ export default function RampApplication() {
       <section className="bg-charcoal text-white py-20 lg:py-32">
         <Container>
           <div className="max-w-4xl">
-            {/* Back to main site */}
-            <Link
-              href="/"
-              className="bg-gray-600 text-gray-300 font-medium px-4 py-2 rounded-full inline-flex items-center gap-2 mb-8 transition-all hover:bg-gray-500"
-            >
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-              </svg>
-              View Full Site
-            </Link>
-
             <div className="mb-8">
               <p className="text-lime text-sm font-medium mb-2">APPLICATION FOR</p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-4">
@@ -65,6 +54,15 @@ export default function RampApplication() {
                 >
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                  </svg>
+                </a>
+                <a
+                  href="/"
+                  className="p-2 bg-white/10 hover:bg-lime rounded-full transition-colors"
+                  aria-label="Visit Full Personal Site"
+                >
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                   </svg>
                 </a>
               </div>
