@@ -563,15 +563,15 @@ export default function RampApplication() {
 
           {/* Thank You Note */}
           <div className="bg-charcoal text-white p-8 rounded-lg mt-12">
-            <p className="text-xl md:text-2xl leading-relaxed mb-6">
+            <p className="text-xl md:text-2xl leading-relaxed">
               Thank you for considering my application. I'm excited about the opportunity to bring my experience scaling customer success organizations to Ramp and help build world-class onboarding and activation for your growing customer base.
             </p>
-            {/* Signature */}
-            <div className="flex justify-end mt-8">
-              <p className="font-handwritten text-4xl text-orange">
-                Katie Kelly
-              </p>
-            </div>
+          </div>
+
+          {/* Signature */}
+          <div className="text-center text-charcoal font-handwritten mt-12">
+            <p className="text-2xl">Peace + Ops,</p>
+            <p className="text-4xl md:text-5xl font-bold">Katie Kelly</p>
           </div>
         </Container>
       </section>
