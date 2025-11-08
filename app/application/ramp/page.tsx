@@ -19,20 +19,22 @@ export default function RampApplication() {
               </p>
             </div>
 
-            <div className="flex items-center gap-4 pt-8 pb-6 border-t border-gray-600">
-              <div className="relative h-16 w-16 rounded-full overflow-hidden">
-                <Image
-                  src="/website_photo.png"
-                  alt="Katie Kelly"
-                  width={64}
-                  height={64}
-                  className="object-cover"
-                  priority
-                />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-xl font-heading font-bold">Katie Kelly</h2>
-                <p className="text-gray-400">FinTech Operations Leader</p>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4 pt-8 pb-6 border-t border-gray-600">
+              <div className="flex items-center gap-4 flex-1">
+                <div className="relative h-16 w-16 rounded-full overflow-hidden">
+                  <Image
+                    src="/website_photo.png"
+                    alt="Katie Kelly"
+                    width={64}
+                    height={64}
+                    className="object-cover"
+                    priority
+                  />
+                </div>
+                <div>
+                  <h2 className="text-xl font-heading font-bold">Katie Kelly</h2>
+                  <p className="text-gray-400">FinTech Operations Leader</p>
+                </div>
               </div>
               <div className="flex items-center gap-3">
                 <a
