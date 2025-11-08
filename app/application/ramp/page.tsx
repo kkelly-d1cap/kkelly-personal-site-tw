@@ -76,11 +76,11 @@ export default function RampApplication() {
         </Container>
       </section>
 
-      {/* Why We Are the Right Fit */}
+      {/* Why I'm the Right Fit */}
       <section className="bg-white py-16 lg:py-24">
         <Container>
           <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-            Why We Are the Right Fit
+            Why I'm the Right Fit
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
