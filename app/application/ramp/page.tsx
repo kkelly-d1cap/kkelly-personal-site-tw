@@ -12,7 +12,7 @@ export default function RampApplication() {
             {/* Back to main site */}
             <Link
               href="/"
-              className="bg-lime text-charcoal font-medium px-4 py-2 rounded-full inline-flex items-center gap-2 mb-8 transition-all hover:bg-lime/90"
+              className="bg-gray-600 text-gray-300 font-medium px-4 py-2 rounded-full inline-flex items-center gap-2 mb-8 transition-all hover:bg-gray-500"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
