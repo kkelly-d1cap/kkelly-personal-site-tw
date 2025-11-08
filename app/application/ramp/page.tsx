@@ -19,20 +19,22 @@ export default function RampApplication() {
               </p>
             </div>
 
-            <div className="flex items-center gap-4 pt-8 pb-6 border-t border-gray-600">
-              <div className="relative h-16 w-16 rounded-full overflow-hidden">
-                <Image
-                  src="/website_photo.png"
-                  alt="Katie Kelly"
-                  width={64}
-                  height={64}
-                  className="object-cover"
-                  priority
-                />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-xl font-heading font-bold">Katie Kelly</h2>
-                <p className="text-gray-400">FinTech Operations Leader</p>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4 pt-8 pb-6 border-t border-gray-600">
+              <div className="flex items-center gap-4 flex-1">
+                <div className="relative h-16 w-16 rounded-full overflow-hidden">
+                  <Image
+                    src="/website_photo.png"
+                    alt="Katie Kelly"
+                    width={64}
+                    height={64}
+                    className="object-cover"
+                    priority
+                  />
+                </div>
+                <div>
+                  <h2 className="text-xl font-heading font-bold">Katie Kelly</h2>
+                  <p className="text-gray-400">FinTech Operations Leader</p>
+                </div>
               </div>
               <div className="flex items-center gap-3">
                 <a
@@ -82,6 +84,13 @@ export default function RampApplication() {
           <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
             Why I'm the Right Fit
           </h2>
+
+          {/* Empathy Hook */}
+          <div className="bg-lime/10 border-l-4 border-lime p-8 rounded-r-lg mb-12">
+            <p className="text-xl md:text-2xl text-charcoal leading-relaxed italic">
+              I know what it's like to be in this stage where the business is booming, teams need to execute flawlessly, overhead must be managed, systems need building, and through it all, clients deserve a best-in-class experience.
+            </p>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="bg-light-gray p-6 rounded-lg">
@@ -146,6 +155,20 @@ export default function RampApplication() {
             </p>
             <p className="text-medium-gray text-lg">
               Led SMB and Mid-Market client operations through hypergrowth, achieving +20% output increase while reducing headcount 25% through systematic process improvement, team restructuring, and data-driven resource allocation.
+            </p>
+          </div>
+        </Container>
+      </section>
+
+      {/* Pattern Recognition Callout */}
+      <section className="bg-charcoal text-white py-12 lg:py-16">
+        <Container>
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-2xl md:text-3xl font-handwritten leading-relaxed mb-4">
+              The challenges you're facing: balancing scale with quality, building data-driven operations, aligning GTM teams.
+            </p>
+            <p className="text-xl md:text-2xl text-lime font-heading font-bold">
+              These are patterns I've solved repeatedly.
             </p>
           </div>
         </Container>
