@@ -86,9 +86,9 @@ export default function RampApplication() {
           </h2>
 
           {/* Empathy Hook */}
-          <div className="bg-lime/10 border-l-4 border-lime p-8 rounded-r-lg mb-12">
-            <p className="text-xl md:text-2xl text-charcoal leading-relaxed italic">
-              I know what it's like to be in this stage where the business is booming, teams need to execute flawlessly, overhead must be managed, systems need building, and through it all, clients deserve a best-in-class experience.
+          <div className="bg-lime/10 border-l-4 border-lime p-6 rounded-r-lg mb-12">
+            <p className="text-lg text-charcoal leading-relaxed italic">
+              I know what it's like to be in this stage where the business is booming, teams need to keep moving fast, overhead must be managed, systems need building, and through it all, clients deserve a best-in-class experience.
             </p>
           </div>
 
