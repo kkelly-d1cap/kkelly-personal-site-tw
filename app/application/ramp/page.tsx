@@ -107,7 +107,7 @@ export default function RampApplication() {
                 Proven Activation & Onboarding Expertise
               </h3>
               <p className="text-medium-gray">
-                Reduced client implementation timelines from 6 weeks to 10 days while doubling output and maintaining headcount. Created 5-part operational framework focused on speed, quality, and repeatability at scale.
+                Reduced client implementation timelines 50% for scaled and mid-market clients from 3 months to 6 weeks while doubling output and maintaining headcount. Created 5-part operational framework focused on speed, quality, and repeatability at scale.
               </p>
             </div>
 
@@ -358,9 +358,9 @@ export default function RampApplication() {
                     <div className="text-xs text-medium-gray mt-1">(394 → 629 hours)</div>
                   </div>
                   <div className="bg-light-gray p-4 rounded-lg text-center">
-                    <div className="text-3xl font-bold text-orange mb-1">+32%</div>
-                    <div className="text-sm text-medium-gray">Fund Launch Throughput</div>
-                    <div className="text-xs text-medium-gray mt-1">(248 → 327 annually)</div>
+                    <div className="text-3xl font-bold text-orange mb-1">+50%</div>
+                    <div className="text-sm text-medium-gray">Onboarding Throughput</div>
+                    <div className="text-xs text-medium-gray mt-1">(250 → 500+ annually)</div>
                   </div>
                   <div className="bg-light-gray p-4 rounded-lg text-center">
                     <div className="text-3xl font-bold text-orange mb-1">-75%</div>
