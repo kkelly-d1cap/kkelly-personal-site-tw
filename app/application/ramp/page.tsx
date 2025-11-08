@@ -89,7 +89,7 @@ export default function RampApplication() {
                 Built & Scaled High-Performing Teams
               </h3>
               <p className="text-medium-gray">
-                Grew a customer success organization from ground up to 25+ professionals with 2 management layers, establishing frameworks for hiring, training, and client delivery that scale.
+                Built a 25+ person, multi-manager CS organization from scratch in 12 months at iCapital, establishing frameworks for hiring, training, and client delivery that scale. Also stepped into a 50+ person global implementation team where I implemented the operating model and managed mid-market and SMB expansion.
               </p>
             </div>
 
@@ -171,7 +171,7 @@ export default function RampApplication() {
               <div>
                 <h4 className="font-heading font-bold text-charcoal mb-3">Organization Structure</h4>
                 <p className="text-medium-gray leading-relaxed mb-4">
-                  As SVP Client & Platform Operations at iCapital, I built and led a 25+ person organization with two management layers from the ground up, structured around specialized teams. I specifically scaled operations for SMB and Mid-Market clients by 60%: More Output with Fewer Resources.
+                  As SVP Client & Platform Operations at iCapital, I built a 25+ person, multi-manager CS organization from scratch in 12 months, structured around specialized teams with two management layers. I also stepped into a 50+ person global implementation team where I implemented the operating model and managed the mid-market and SMB expansion, specifically scaling operations by 60%: More Output with Fewer Resources.
                 </p>
               </div>
 
