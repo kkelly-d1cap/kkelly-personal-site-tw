@@ -8,11 +8,11 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const navigation = [
-    { name: 'About', href: '#about' },
-    { name: 'Work', href: '#work' },
-    { name: 'Experience', href: '#experience' },
+    { name: 'About', href: '/#about' },
+    { name: 'Work', href: '/#work' },
+    { name: 'Experience', href: '/#experience' },
     { name: 'Blog', href: '/blog' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Contact', href: '/#contact' },
   ];
 
   useEffect(() => {
