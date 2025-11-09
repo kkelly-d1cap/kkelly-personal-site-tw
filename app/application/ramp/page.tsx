@@ -298,7 +298,7 @@ export default function RampApplication() {
               <div className="bg-orange/10 border-l-4 border-orange p-6 rounded-r-lg">
                 <p className="text-charcoal italic leading-relaxed">
                   <span className="font-bold">My Philosophy: </span>
-                  The systems and reporting infrastructure are what drive success - the specific tools are ancillary. At iCapital, I built a data-driven operational framework that fundamentally changed how we measured and improved performance.
+                  The systems and reporting infrastructure are what drive success, from there you need to measure what matter so the data tells you more than you knew before. At iCapital, I built a data-driven operational framework that fundamentally changed how we measured and improved performance.
                 </p>
               </div>
 
@@ -336,7 +336,7 @@ export default function RampApplication() {
 
                 <p className="font-bold text-charcoal mb-2">Phase 1 (Excel-based):</p>
                 <p className="text-medium-gray mb-4">
-                  Built comprehensive tracking spreadsheets that captured task-level hours and dependencies for each deliverable type, individual and team production hours mapped to client tiers, weekly pipeline status (fund launches, implementations, support tickets), and employee utilization and efficiency ratios.
+                  Built comprehensive tracking spreadsheets that captured task-level hours and dependencies for each deliverable type, individual and team production hours mapped to client tiers, weekly pipeline status (implementations, onboardings, support tickets), and employee utilization and efficiency ratios.
                 </p>
 
                 <p className="font-bold text-charcoal mb-2">Phase 2 (Tableau Dashboards):</p>
@@ -372,7 +372,7 @@ export default function RampApplication() {
                 <div className="bg-lime/10 border-l-4 border-lime p-6 rounded-r-lg">
                   <p className="text-charcoal italic leading-relaxed">
                     <span className="font-bold">The Key Insight: </span>
-                    By making operational data visible and actionable, we could pinpoint exactly where inefficiencies existed - whether in task allocation, training gaps, or resource imbalances - and address them systematically rather than anecdotally. This transformed us from reactive firefighting to proactive optimization.
+                    By making operational data visible and actionable, we could pinpoint exactly where inefficiencies existed, whether in task allocation, training gaps, or resource imbalances and then systematically rather than anecdotally. This transformed us from reactive firefighting to proactive optimization.
                   </p>
                 </div>
               </div>
@@ -391,7 +391,7 @@ export default function RampApplication() {
                   $500K Recurring Overhead Reduction Through Cross-Functional Leadership
                 </h4>
                 <p className="text-medium-gray leading-relaxed">
-                  One of my most impactful cross-functional initiatives involved a strategic enterprise client who was facing $500,000 in annual recurring overhead costs for fund administration - costs that were threatening the client relationship and creating pricing pressure for our Sales team.
+                  One of my most impactful cross-functional initiatives involved a strategic client who was facing $500,000 in annual recurring overhead costs for fund administration - costs that were threatening the client relationship and creating pricing pressure for our Sales team.
                 </p>
               </div>
 
@@ -400,7 +400,7 @@ export default function RampApplication() {
                 <ul className="space-y-2">
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span><strong>Sales</strong> had a retention risk: The client was evaluating competitors due to cost concerns</span>
+                    <span><strong>Sales</strong> had a retention risk: The client was evaluating competitors due to cost concerns and ability to advance technology</span>
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
@@ -408,11 +408,11 @@ export default function RampApplication() {
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span><strong>Client Operations</strong> (my team) was managing manual processes that were driving up the client's costs</span>
+                    <span><strong>Implementation</strong> (my team) was managing the ongoing roadmap for the client's future with the company</span>
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>No one had connected the dots or owned the end-to-end solution</span>
+                    <span>Prior leadership though the end-to-end solution wasn't feasible</span>
                   </li>
                 </ul>
               </div>
@@ -426,7 +426,7 @@ export default function RampApplication() {
                     <ul className="space-y-1">
                       <li className="text-medium-gray flex">
                         <span className="text-orange mr-2">•</span>
-                        <span>I told the client directly: "We can solve this" - creating commitment before having all the answers</span>
+                        <span>I told the client directly: "We are making this a top priority to solve this" creating a commitment to build trust with the client</span>
                       </li>
                       <li className="text-medium-gray flex">
                         <span className="text-orange mr-2">•</span>
@@ -434,7 +434,7 @@ export default function RampApplication() {
                       </li>
                       <li className="text-medium-gray flex">
                         <span className="text-orange mr-2">•</span>
-                        <span>Quantified the internal operational costs we could eliminate through automation</span>
+                        <span>Quantified the operational costs we could eliminate through automation</span>
                       </li>
                     </ul>
                   </div>
@@ -492,7 +492,7 @@ export default function RampApplication() {
                       </li>
                       <li className="text-medium-gray flex">
                         <span className="text-orange mr-2">•</span>
-                        <span>Validated $500K in annual savings with Finance</span>
+                        <span>Validated $500K in annual savings</span>
                       </li>
                     </ul>
                   </div>
@@ -509,14 +509,14 @@ export default function RampApplication() {
                   <div>
                     <p className="font-bold text-charcoal">With Sales:</p>
                     <p className="text-medium-gray">
-                      Established formal handoff process between Sales and Implementation with clear acceptance criteria. Created feedback loop where my team provided product adoption insights to inform Sales strategy. Developed pricing input process where Operations provided cost-to-serve data by client tier.
+                      Established formal handoff process between Sales, Product, and Implementation with clear acceptance criteria. Created feedback loop where my team provided product adoption insights to inform Sales strategy.
                     </p>
                   </div>
 
                   <div>
                     <p className="font-bold text-charcoal">With Product:</p>
                     <p className="text-medium-gray">
-                      Built regular cadence between Operations and Product teams for real-time client insights. My team became Product's "voice of customer" - surfacing feature requests backed by usage data and business impact. Created escalation protocols where critical client needs got fast-tracked to Product roadmap discussions.
+                      Built regular cadence between Operations and Product teams for real-time client insights. My team became Product's "voice of customer" surfacing feature requests backed by business impact. Created escalation protocols where critical client needs got fast-tracked to Product roadmap discussions.
                     </p>
                   </div>
 
@@ -531,7 +531,7 @@ export default function RampApplication() {
                 <div className="bg-orange/10 border-l-4 border-orange p-6 rounded-r-lg mt-6">
                   <p className="text-charcoal italic leading-relaxed">
                     <span className="font-bold">The Result: </span>
-                    This wasn't a one-time win - it established a repeatable model for cross-functional problem-solving that made GTM teams more effective and created competitive differentiation in how we served enterprise clients.
+                    This wasn't a one-time win, it established a repeatable model for cross-functional problem-solving that made GTM teams more effective and created competitive differentiation in how we served enterprise clients.
                   </p>
                 </div>
               </div>
