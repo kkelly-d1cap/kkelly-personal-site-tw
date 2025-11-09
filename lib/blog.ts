@@ -24,7 +24,19 @@ export function getPosts(): BlogPost[] {
 
   const fileNames = fs.readdirSync(postsDirectory);
   const allPostsData = fileNames
-    .filter(fileName => fileName.endsWith('.mdx') || fileName.endsWith('.md'))
+    .filter(fileName => {
+      // Only include .mdx and .md files
+      if (!(fileName.endsWith('.mdx') || fileName.endsWith('.md'))) {
+        return false;
+      }
+      // Exclude files that start with uppercase letters (templates/docs)
+      // But allow files that start with digits or lowercase
+      const firstChar = fileName[0];
+      if (firstChar >= 'A' && firstChar <= 'Z') {
+        return false;
+      }
+      return true;
+    })
     .map(fileName => {
       const slug = fileName.replace(/\.mdx?$/, '');
       const fullPath = path.join(postsDirectory, fileName);
@@ -36,6 +48,10 @@ export function getPosts(): BlogPost[] {
         frontmatter: data as BlogPost['frontmatter'],
         content,
       };
+    })
+    .filter(post => {
+      // Only include posts with valid frontmatter
+      return post.frontmatter.title && post.frontmatter.date && post.frontmatter.excerpt;
     });
 
   // Sort posts by date
