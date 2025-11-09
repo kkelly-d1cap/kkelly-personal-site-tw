@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { getPostsFromNotion, getPostBySlugFromNotion } from './notion';
 
 const postsDirectory = path.join(process.cwd(), 'content/blog');
 
@@ -16,7 +17,13 @@ export interface BlogPost {
   content: string;
 }
 
-export function getPosts(): BlogPost[] {
+// Check if Notion is configured
+const isNotionConfigured = () => {
+  return !!(process.env.NOTION_API_KEY && process.env.NOTION_DATABASE_ID);
+};
+
+// Get posts from files (fallback)
+function getPostsFromFiles(): BlogPost[] {
   // Check if blog directory exists
   if (!fs.existsSync(postsDirectory)) {
     return [];
@@ -64,7 +71,19 @@ export function getPosts(): BlogPost[] {
   });
 }
 
-export function getPostBySlug(slug: string): BlogPost | null {
-  const posts = getPosts();
+export async function getPosts(): Promise<BlogPost[]> {
+  // Use Notion if configured, otherwise fallback to files
+  if (isNotionConfigured()) {
+    return await getPostsFromNotion();
+  }
+  return getPostsFromFiles();
+}
+
+export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
+  // Use Notion if configured, otherwise fallback to files
+  if (isNotionConfigured()) {
+    return await getPostBySlugFromNotion(slug);
+  }
+  const posts = getPostsFromFiles();
   return posts.find(post => post.slug === slug) || null;
 }
