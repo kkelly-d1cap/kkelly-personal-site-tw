@@ -151,7 +151,7 @@ export default function RampApplication() {
           {/* Key Achievement Callout */}
           <div className="bg-orange/10 border-l-4 border-orange p-8 rounded-r-lg">
             <p className="text-2xl md:text-3xl font-handwritten text-charcoal mb-4">
-              Scaled Operations by 60%: More Output with Fewer Resources
+              Increased Efficiency by 60%: More Output with Fewer Resources
             </p>
             <p className="text-medium-gray text-lg">
               Led SMB and Mid-Market client operations through hypergrowth, achieving +20% output increase while reducing headcount 25% through systematic process improvement, team restructuring, and data-driven resource allocation.
@@ -194,7 +194,7 @@ export default function RampApplication() {
               <div>
                 <h4 className="font-heading font-bold text-charcoal mb-3">Organization Structure</h4>
                 <p className="text-medium-gray leading-relaxed mb-4">
-                  As SVP Client & Platform Operations at iCapital, I built a 25+ person, multi-manager CS organization from scratch in 12 months, structured around specialized teams with two management layers. I also stepped into a 50+ person global implementation team where I implemented the operating model and managed the mid-market and SMB expansion, specifically scaling operations by 60%: More Output with Fewer Resources.
+                  As SVP Client & Platform Operations at iCapital, I built a 25+ person, multi-manager CS organization from scratch in 12 months, structured around specialized teams with two management layers. I also stepped into a 50+ person global implementation team where I implemented the operating model and managed the mid-market and SMB expansion, specifically increasing efficiency by 60%, more output with fewer resources.
                 </p>
               </div>
 
@@ -203,15 +203,15 @@ export default function RampApplication() {
                 <ul className="space-y-2">
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span><strong>Enterprise:</strong> High-complexity clients requiring bespoke implementations and dedicated account management</span>
+                    <span><strong>Scaled:</strong> High-volume segment requiring efficient, standardized processes (High Volume, Low Touch, Lower Revenue)</span>
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span><strong>Mid-Market:</strong> Clients needing customized onboarding with tailored support</span>
+                    <span><strong>Mid-Market:</strong> Clients needing customized onboarding with tailored support (Mid Volume, Mid-Touch, High Revenue Potential)</span>
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span><strong>SMB:</strong> High-volume segment requiring efficient, standardized processes</span>
+                    <span><strong>Enterprise:</strong> High-complexity clients requiring bespoke implementations and dedicated account management (Low Volume, High Touch, High Revenue)</span>
                   </li>
                 </ul>
               </div>
@@ -223,13 +223,13 @@ export default function RampApplication() {
                 </p>
                 <ul className="space-y-3">
                   <li className="text-medium-gray">
-                    <span className="font-bold text-charcoal">1. Implementation Team</span> (Managers + Associates): Focused exclusively on client rollout, platform configuration, and onboarding - handling 50+ white label implementations annually
+                    <span className="font-bold text-charcoal">1. Implementation Team</span> (Managers + Associates): Focused exclusively on client rollout, platform configuration, and onboarding - handling 100+ white label implementations annually
                   </li>
                   <li className="text-medium-gray">
-                    <span className="font-bold text-charcoal">2. Operations Team</span> (Managers + Associates/Fund Launch Managers): Managed recurring business activities and onboarding (500+ annually), ensuring consistent delivery and client alignment
+                    <span className="font-bold text-charcoal">2. Operations Team</span> (Account Managers + Player Coaches + Associates): Managed recurring business activities and onboarding (500+ onboardings annually), ensuring consistent delivery and client alignment
                   </li>
                   <li className="text-medium-gray">
-                    <span className="font-bold text-charcoal">3. Support Team</span> (Front-end/Back-end Managers + Associates): Bifurcated support handling 20,000+ annual tickets, with front-end managing platform issues and back-end handling data integrity
+                    <span className="font-bold text-charcoal">3. Support Team</span> (Front-end/Back-end Managers + Associates): Bifurcated support handling 25,000+ annual tickets, with front-end managing platform issues and back-end handling data integrity
                   </li>
                 </ul>
                 <p className="text-medium-gray leading-relaxed mt-4">
@@ -274,10 +274,10 @@ export default function RampApplication() {
                   <div className="border-l-4 border-lime pl-4">
                     <p className="font-bold text-charcoal mb-2">Challenge 4: Resource Allocation & Pipeline Visibility</p>
                     <p className="text-medium-gray mb-2">
-                      Difficulty balancing workloads across 300+ fund launches and implementations.
+                      Difficulty balancing workloads across 500+ new annual onboardings.
                     </p>
                     <p className="text-medium-gray">
-                      <span className="font-bold text-charcoal">Solution:</span> Established weekly pipeline management with clear staffing models tied to client tiers, maintaining flexibility to reallocate resources based on demand while ensuring broader client assignments remained intact.
+                      <span className="font-bold text-charcoal">Solution:</span> Established global pipeline management with clear staffing and management models tied to client tiers, maintaining flexibility to reallocate resources based on demand while ensuring broader client assignments remain intact.
                     </p>
                   </div>
                 </div>
@@ -298,7 +298,7 @@ export default function RampApplication() {
               <div className="bg-orange/10 border-l-4 border-orange p-6 rounded-r-lg">
                 <p className="text-charcoal italic leading-relaxed">
                   <span className="font-bold">My Philosophy: </span>
-                  The systems and reporting infrastructure are what drive success - the specific tools are ancillary. At iCapital, I built a data-driven operational framework that fundamentally changed how we measured and improved performance.
+                  The systems and reporting infrastructure are what drive success, from there you need to measure what matter so the data tells you more than you knew before. At iCapital, I built a data-driven operational framework that fundamentally changed how we measured and improved performance.
                 </p>
               </div>
 
@@ -336,7 +336,7 @@ export default function RampApplication() {
 
                 <p className="font-bold text-charcoal mb-2">Phase 1 (Excel-based):</p>
                 <p className="text-medium-gray mb-4">
-                  Built comprehensive tracking spreadsheets that captured task-level hours and dependencies for each deliverable type, individual and team production hours mapped to client tiers, weekly pipeline status (fund launches, implementations, support tickets), and employee utilization and efficiency ratios.
+                  Built comprehensive tracking spreadsheets that captured task-level hours and dependencies for each deliverable type, individual and team production hours mapped to client tiers, weekly pipeline status (implementations, onboardings, support tickets), and employee utilization and efficiency ratios.
                 </p>
 
                 <p className="font-bold text-charcoal mb-2">Phase 2 (Tableau Dashboards):</p>
@@ -372,7 +372,7 @@ export default function RampApplication() {
                 <div className="bg-lime/10 border-l-4 border-lime p-6 rounded-r-lg">
                   <p className="text-charcoal italic leading-relaxed">
                     <span className="font-bold">The Key Insight: </span>
-                    By making operational data visible and actionable, we could pinpoint exactly where inefficiencies existed - whether in task allocation, training gaps, or resource imbalances - and address them systematically rather than anecdotally. This transformed us from reactive firefighting to proactive optimization.
+                    By making operational data visible and actionable, we could pinpoint exactly where inefficiencies existed, whether in task allocation, training gaps, or resource imbalances and then systematically rather than anecdotally. This transformed us from reactive firefighting to proactive optimization.
                   </p>
                 </div>
               </div>
@@ -391,7 +391,7 @@ export default function RampApplication() {
                   $500K Recurring Overhead Reduction Through Cross-Functional Leadership
                 </h4>
                 <p className="text-medium-gray leading-relaxed">
-                  One of my most impactful cross-functional initiatives involved a strategic enterprise client who was facing $500,000 in annual recurring overhead costs for fund administration - costs that were threatening the client relationship and creating pricing pressure for our Sales team.
+                  One of my most impactful cross-functional initiatives involved a strategic client who was facing $500,000 in annual recurring overhead costs for fund administration - costs that were threatening the client relationship and creating pricing pressure for our Sales team.
                 </p>
               </div>
 
@@ -400,7 +400,7 @@ export default function RampApplication() {
                 <ul className="space-y-2">
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span><strong>Sales</strong> had a retention risk: The client was evaluating competitors due to cost concerns</span>
+                    <span><strong>Sales</strong> had a retention risk: The client was evaluating competitors due to cost concerns and ability to advance technology</span>
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
@@ -408,11 +408,11 @@ export default function RampApplication() {
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span><strong>Client Operations</strong> (my team) was managing manual processes that were driving up the client's costs</span>
+                    <span><strong>Implementation</strong> (my team) was managing the ongoing roadmap for the client's future with the company</span>
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>No one had connected the dots or owned the end-to-end solution</span>
+                    <span>Prior leadership though the end-to-end solution wasn't feasible</span>
                   </li>
                 </ul>
               </div>
@@ -426,7 +426,7 @@ export default function RampApplication() {
                     <ul className="space-y-1">
                       <li className="text-medium-gray flex">
                         <span className="text-orange mr-2">•</span>
-                        <span>I told the client directly: "We can solve this" - creating commitment before having all the answers</span>
+                        <span>I told the client directly: "We are making this a top priority to solve this" creating a commitment to build trust with the client</span>
                       </li>
                       <li className="text-medium-gray flex">
                         <span className="text-orange mr-2">•</span>
@@ -434,7 +434,7 @@ export default function RampApplication() {
                       </li>
                       <li className="text-medium-gray flex">
                         <span className="text-orange mr-2">•</span>
-                        <span>Quantified the internal operational costs we could eliminate through automation</span>
+                        <span>Quantified the operational costs we could eliminate through automation</span>
                       </li>
                     </ul>
                   </div>
@@ -492,7 +492,7 @@ export default function RampApplication() {
                       </li>
                       <li className="text-medium-gray flex">
                         <span className="text-orange mr-2">•</span>
-                        <span>Validated $500K in annual savings with Finance</span>
+                        <span>Validated $500K in annual savings</span>
                       </li>
                     </ul>
                   </div>
@@ -509,14 +509,14 @@ export default function RampApplication() {
                   <div>
                     <p className="font-bold text-charcoal">With Sales:</p>
                     <p className="text-medium-gray">
-                      Established formal handoff process between Sales and Implementation with clear acceptance criteria. Created feedback loop where my team provided product adoption insights to inform Sales strategy. Developed pricing input process where Operations provided cost-to-serve data by client tier.
+                      Established formal handoff process between Sales, Product, and Implementation with clear acceptance criteria. Created feedback loop where my team provided product adoption insights to inform Sales strategy.
                     </p>
                   </div>
 
                   <div>
                     <p className="font-bold text-charcoal">With Product:</p>
                     <p className="text-medium-gray">
-                      Built regular cadence between Operations and Product teams for real-time client insights. My team became Product's "voice of customer" - surfacing feature requests backed by usage data and business impact. Created escalation protocols where critical client needs got fast-tracked to Product roadmap discussions.
+                      Built regular cadence between Operations and Product teams for real-time client insights. My team became Product's "voice of customer" surfacing feature requests backed by business impact. Created escalation protocols where critical client needs got fast-tracked to Product roadmap discussions.
                     </p>
                   </div>
 
@@ -531,7 +531,7 @@ export default function RampApplication() {
                 <div className="bg-orange/10 border-l-4 border-orange p-6 rounded-r-lg mt-6">
                   <p className="text-charcoal italic leading-relaxed">
                     <span className="font-bold">The Result: </span>
-                    This wasn't a one-time win - it established a repeatable model for cross-functional problem-solving that made GTM teams more effective and created competitive differentiation in how we served enterprise clients.
+                    This wasn't a one-time win, it established a repeatable model for cross-functional problem-solving that made GTM teams more effective and created competitive differentiation in how we served enterprise clients.
                   </p>
                 </div>
               </div>

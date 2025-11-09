@@ -1,7 +1,7 @@
 export const featuredProject = {
   headline: "Scaled Operations for SMB and Mid-Market Clients by 60%: More Output with Fewer Resources",
 
-  situation: "Led operations for a rapidly growing fintech sub-team at a Unicorn FinTech Company during a critical scaling phase. The team was underwater.",
+  situation: "Led operations for a rapidly growing team at a Unicorn FinTech Company during a critical scaling phase. The team was taking on more business than it could deliver on.",
 
   challenges: [
     "Comingled functions created cognitive overload and increased error rates",

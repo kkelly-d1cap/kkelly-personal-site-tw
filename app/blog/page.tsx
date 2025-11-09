@@ -10,8 +10,8 @@ export const metadata = {
   description: 'Insights on FinTech operations, leadership, and scaling teams',
 };
 
-export default function BlogPage() {
-  const posts = getPosts();
+export default async function BlogPage() {
+  const posts = await getPosts();
 
   return (
     <>
