@@ -140,7 +140,7 @@ export default function FeaturedProject({
                 Key Metrics
               </h4>
               {/* Timeframe */}
-              <div className="bg-light-gray p-3 rounded-lg w-fit">
+              <div className="bg-light-gray p-3 rounded-lg w-full sm:w-fit text-center sm:text-left">
                 <span className="text-sm text-medium-gray font-medium">
                   Timeframe:
                 </span>
