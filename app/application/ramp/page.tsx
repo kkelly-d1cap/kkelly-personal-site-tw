@@ -151,7 +151,7 @@ export default function RampApplication() {
           {/* Key Achievement Callout */}
           <div className="bg-orange/10 border-l-4 border-orange p-8 rounded-r-lg">
             <p className="text-2xl md:text-3xl font-handwritten text-charcoal mb-4">
-              Scaled Operations by 60%: More Output with Fewer Resources
+              Increased Efficiency by 60%: More Output with Fewer Resources
             </p>
             <p className="text-medium-gray text-lg">
               Led SMB and Mid-Market client operations through hypergrowth, achieving +20% output increase while reducing headcount 25% through systematic process improvement, team restructuring, and data-driven resource allocation.
@@ -194,7 +194,7 @@ export default function RampApplication() {
               <div>
                 <h4 className="font-heading font-bold text-charcoal mb-3">Organization Structure</h4>
                 <p className="text-medium-gray leading-relaxed mb-4">
-                  As SVP Client & Platform Operations at iCapital, I built a 25+ person, multi-manager CS organization from scratch in 12 months, structured around specialized teams with two management layers. I also stepped into a 50+ person global implementation team where I implemented the operating model and managed the mid-market and SMB expansion, specifically scaling operations by 60%: More Output with Fewer Resources.
+                  As SVP Client & Platform Operations at iCapital, I built a 25+ person, multi-manager CS organization from scratch in 12 months, structured around specialized teams with two management layers. I also stepped into a 50+ person global implementation team where I implemented the operating model and managed the mid-market and SMB expansion, specifically increasing efficiency by 60%, more output with fewer resources.
                 </p>
               </div>
 
@@ -203,15 +203,15 @@ export default function RampApplication() {
                 <ul className="space-y-2">
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span><strong>Enterprise:</strong> High-complexity clients requiring bespoke implementations and dedicated account management</span>
+                    <span><strong>Scaled:</strong> High-volume segment requiring efficient, standardized processes (High Volume, Low Touch, Lower Revenue)</span>
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span><strong>Mid-Market:</strong> Clients needing customized onboarding with tailored support</span>
+                    <span><strong>Mid-Market:</strong> Clients needing customized onboarding with tailored support (Mid Volume, Mid-Touch, High Revenue Potential)</span>
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span><strong>SMB:</strong> High-volume segment requiring efficient, standardized processes</span>
+                    <span><strong>Enterprise:</strong> High-complexity clients requiring bespoke implementations and dedicated account management (Low Volume, High Touch, High Revenue)</span>
                   </li>
                 </ul>
               </div>
@@ -223,13 +223,13 @@ export default function RampApplication() {
                 </p>
                 <ul className="space-y-3">
                   <li className="text-medium-gray">
-                    <span className="font-bold text-charcoal">1. Implementation Team</span> (Managers + Associates): Focused exclusively on client rollout, platform configuration, and onboarding - handling 50+ white label implementations annually
+                    <span className="font-bold text-charcoal">1. Implementation Team</span> (Managers + Associates): Focused exclusively on client rollout, platform configuration, and onboarding - handling 100+ white label implementations annually
                   </li>
                   <li className="text-medium-gray">
-                    <span className="font-bold text-charcoal">2. Operations Team</span> (Managers + Associates/Fund Launch Managers): Managed recurring business activities and onboarding (500+ annually), ensuring consistent delivery and client alignment
+                    <span className="font-bold text-charcoal">2. Operations Team</span> (Account Managers + Player Coaches + Associates): Managed recurring business activities and onboarding (500+ onboardings annually), ensuring consistent delivery and client alignment
                   </li>
                   <li className="text-medium-gray">
-                    <span className="font-bold text-charcoal">3. Support Team</span> (Front-end/Back-end Managers + Associates): Bifurcated support handling 20,000+ annual tickets, with front-end managing platform issues and back-end handling data integrity
+                    <span className="font-bold text-charcoal">3. Support Team</span> (Front-end/Back-end Managers + Associates): Bifurcated support handling 25,000+ annual tickets, with front-end managing platform issues and back-end handling data integrity
                   </li>
                 </ul>
                 <p className="text-medium-gray leading-relaxed mt-4">
@@ -274,10 +274,10 @@ export default function RampApplication() {
                   <div className="border-l-4 border-lime pl-4">
                     <p className="font-bold text-charcoal mb-2">Challenge 4: Resource Allocation & Pipeline Visibility</p>
                     <p className="text-medium-gray mb-2">
-                      Difficulty balancing workloads across 300+ fund launches and implementations.
+                      Difficulty balancing workloads across 500+ new annual onboardings.
                     </p>
                     <p className="text-medium-gray">
-                      <span className="font-bold text-charcoal">Solution:</span> Established weekly pipeline management with clear staffing models tied to client tiers, maintaining flexibility to reallocate resources based on demand while ensuring broader client assignments remained intact.
+                      <span className="font-bold text-charcoal">Solution:</span> Established global pipeline management with clear staffing and management models tied to client tiers, maintaining flexibility to reallocate resources based on demand while ensuring broader client assignments remain intact.
                     </p>
                   </div>
                 </div>
