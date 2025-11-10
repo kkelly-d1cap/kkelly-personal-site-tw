@@ -194,7 +194,7 @@ export default function RampApplication() {
               <div>
                 <h4 className="font-heading font-bold text-charcoal mb-3">Organization Structure</h4>
                 <p className="text-medium-gray leading-relaxed mb-4">
-                  As SVP Client & Platform Operations at iCapital, I built a 25+ person, multi-manager CS organization from scratch in 12 months, structured around specialized teams with two management layers. I also stepped into a 50+ person global implementation team where I implemented the operating model and managed the mid-market and SMB expansion, specifically increasing efficiency by 60%, more output with fewer resources.
+                  Built a 25+ person, multi-manager CS organization from scratch in 12 months at iCapital, featuring specialized teams across two management layers. This followed earlier success redesigning operations for a 50+ person global implementation team, where implementation of a comprehensive operating model with direct management of mid-market and SMB segments drove 60% efficiency improvement while delivering more output with fewer resources.
                 </p>
               </div>
 
