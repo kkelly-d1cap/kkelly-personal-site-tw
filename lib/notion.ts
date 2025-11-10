@@ -45,7 +45,6 @@ export async function getPostsFromNotion(): Promise<BlogPost[]> {
       return [];
     }
 
-    // @ts-ignore - Notion SDK type mismatch
     const response = await notion.databases.query({
       database_id: databaseId,
       filter: {
