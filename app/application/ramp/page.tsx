@@ -107,7 +107,7 @@ export default function RampApplication() {
                 Proven Activation & Onboarding Expertise
               </h3>
               <p className="text-medium-gray">
-                Reduced client implementation timelines 50% for scaled and mid-market clients from 3 months to 6 weeks while doubling output and maintaining headcount. Created 5-part operational framework focused on speed, quality, and repeatability at scale.
+                Reduced client implementation timelines 50% for SMB and mid-market clients from 3 months to 6 weeks while doubling output and maintaining headcount. Created 5-part operational framework focused on speed, quality, and repeatability at scale.
               </p>
             </div>
 
@@ -203,7 +203,7 @@ export default function RampApplication() {
                 <ul className="space-y-2">
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span><strong>Scaled:</strong> High-volume segment requiring efficient, standardized processes (High Volume, Low Touch, Lower Revenue)</span>
+                    <span><strong>SMB:</strong> High-volume segment requiring efficient, standardized processes (High Volume, Low Touch, Lower Revenue)</span>
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
@@ -219,7 +219,7 @@ export default function RampApplication() {
               <div>
                 <h4 className="font-heading font-bold text-charcoal mb-3">Team Structure & Management Layers</h4>
                 <p className="text-medium-gray leading-relaxed mb-4">
-                  I organized the division into three specialized functions to eliminate the inefficiencies of commingled roles:
+                  The division was organized into three specialized functions to eliminate the inefficiencies of commingled roles:
                 </p>
                 <ul className="space-y-3">
                   <li className="text-medium-gray">
@@ -244,7 +244,7 @@ export default function RampApplication() {
                   <div className="border-l-4 border-lime pl-4">
                     <p className="font-bold text-charcoal mb-2">Challenge 1: Doing More with Less During Hypergrowth</p>
                     <p className="text-medium-gray mb-2">
-                      While I had dotted-line oversight of a Mid-Market/SMB segment earlier in my tenure, that team faced a 25% workforce reduction while output demands increased 20%.
+                      When I had dotted-line oversight of a Mid-Market and SMB segments earlier in my tenure, that team faced a 25% workforce reduction while output demands increased 20%.
                     </p>
                     <p className="text-medium-gray">
                       <span className="font-bold text-charcoal">Solution:</span> I developed and implemented a 5-Part Operational Framework that improved efficiency by 60% (productivity per employee from 400 to 600 hours annually). This framework became the blueprint for scaling the broader organization.
@@ -298,14 +298,14 @@ export default function RampApplication() {
               <div className="bg-orange/10 border-l-4 border-orange p-6 rounded-r-lg">
                 <p className="text-charcoal italic leading-relaxed">
                   <span className="font-bold">My Philosophy: </span>
-                  The systems and reporting infrastructure are what drive success, from there you need to measure what matter so the data tells you more than you knew before. At iCapital, I built a data-driven operational framework that fundamentally changed how we measured and improved performance.
+                  The systems and reporting infrastructure are what drive success, from there you need to measure what matters so the data tells you more than you knew before. At iCapital, I built a data-driven operational framework that fundamentally changed how we measured and improved performance.
                 </p>
               </div>
 
               <div>
-                <h4 className="font-heading font-bold text-charcoal mb-3">The System I Built</h4>
+                <h4 className="font-heading font-bold text-charcoal mb-3">The System</h4>
                 <p className="text-medium-gray leading-relaxed mb-4">
-                  Rather than implementing flashy software, I created an interconnected measurement system across five operational dimensions:
+                  The first step was not just to implement a tool but create an interconnected measurement system across five operational dimensions:
                 </p>
                 <ul className="space-y-2">
                   <li className="text-medium-gray flex">
@@ -332,14 +332,14 @@ export default function RampApplication() {
               </div>
 
               <div>
-                <h4 className="font-heading font-bold text-charcoal mb-3">The Evolution - Excel to Tableau</h4>
+                <h4 className="font-heading font-bold text-charcoal mb-3">The Evolution</h4>
 
-                <p className="font-bold text-charcoal mb-2">Phase 1 (Excel-based):</p>
+                <p className="font-bold text-charcoal mb-2">Phase 1</p>
                 <p className="text-medium-gray mb-4">
                   Built comprehensive tracking spreadsheets that captured task-level hours and dependencies for each deliverable type, individual and team production hours mapped to client tiers, weekly pipeline status (implementations, onboardings, support tickets), and employee utilization and efficiency ratios.
                 </p>
 
-                <p className="font-bold text-charcoal mb-2">Phase 2 (Tableau Dashboards):</p>
+                <p className="font-bold text-charcoal mb-2">Phase 2:</p>
                 <p className="text-medium-gray mb-4">
                   As data volume scaled, I led the migration to Tableau, creating executive dashboards that provided real-time visibility into team efficiency trends, bottleneck identification across the delivery pipeline, client tier performance and resource allocation optimization, and quality metrics.
                 </p>
@@ -391,7 +391,7 @@ export default function RampApplication() {
                   $500K Recurring Overhead Reduction Through Cross-Functional Leadership
                 </h4>
                 <p className="text-medium-gray leading-relaxed">
-                  One of my most impactful cross-functional initiatives involved a strategic client who was facing $500,000 in annual recurring overhead costs for fund administration - costs that were threatening the client relationship and creating pricing pressure for our Sales team.
+                  One of my most impactful cross-functional initiatives involved a strategic client who was facing $500,000 in annual recurring overhead costs for fund administration, costs that were threatening the client relationship and creating pricing pressure for our Sales team.
                 </p>
               </div>
 
@@ -400,7 +400,7 @@ export default function RampApplication() {
                 <ul className="space-y-2">
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span><strong>Sales</strong> had a retention risk: The client was evaluating competitors due to cost concerns and ability to advance technology</span>
+                    <span><strong>Sales</strong> had a retention risk, the client was evaluating competitors due to cost concerns and ability to advance technology</span>
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
@@ -412,7 +412,7 @@ export default function RampApplication() {
                   </li>
                   <li className="text-medium-gray flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>Prior leadership though the end-to-end solution wasn't feasible</span>
+                    <span>Prior account management though the end-to-end solution wasn't feasible</span>
                   </li>
                 </ul>
               </div>
@@ -426,7 +426,7 @@ export default function RampApplication() {
                     <ul className="space-y-1">
                       <li className="text-medium-gray flex">
                         <span className="text-orange mr-2">•</span>
-                        <span>I told the client directly: "We are making this a top priority to solve this" creating a commitment to build trust with the client</span>
+                        <span>We told the client directly: "We are making this a top priority to solve this" creating a commitment to build trust with the client</span>
                       </li>
                       <li className="text-medium-gray flex">
                         <span className="text-orange mr-2">•</span>
@@ -502,7 +502,7 @@ export default function RampApplication() {
               <div>
                 <h4 className="font-heading font-bold text-charcoal mb-3">Broader Impact on GTM Collaboration</h4>
                 <p className="text-medium-gray mb-4">
-                  This success case became a template for how I redefined collaboration:
+                  This success case became a template for how we redefined collaboration:
                 </p>
 
                 <div className="space-y-3">
