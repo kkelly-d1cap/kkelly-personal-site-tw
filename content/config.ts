@@ -6,7 +6,7 @@ export const config = {
   },
   hero: {
     headline: 'Scaling Growth-Stage FinTech Platforms',
-    subheadline: 'Specializing in team building, client delivery, and operational efficiency for high growth platform companies',
+    subheadline: 'Scaling Customer Operations for Growth-Stage Fintech & SaaS | Building Teams, Systems & Frameworks That Enable Hypergrowth',
     valueProposition: 'Providing practical solutions for complex problems',
     highlightedWord: 'complex problems',
   },
