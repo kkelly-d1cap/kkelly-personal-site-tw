@@ -10,6 +10,9 @@ export const metadata = {
   description: 'Insights on FinTech operations, leadership, and scaling teams',
 };
 
+// Revalidate every hour (3600 seconds)
+export const revalidate = 3600;
+
 export default async function BlogPage() {
   const posts = await getPosts();
 
