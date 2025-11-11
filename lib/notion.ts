@@ -69,13 +69,13 @@ export async function getPostsFromNotion(): Promise<BlogPost[]> {
         const mdblocks = await n2m.pageToMarkdown(page.id);
         const mdString = n2m.toMarkdownString(mdblocks);
 
-        // Extract properties
-        const title = notionPage.properties.Title.title[0]?.plain_text || 'Untitled';
-        const date = notionPage.properties.Date.date?.start || new Date().toISOString().split('T')[0];
-        const excerpt = notionPage.properties.Excerpt.rich_text[0]?.plain_text || '';
-        const author = notionPage.properties.Author?.rich_text[0]?.plain_text || 'Katie Kelly';
-        const tags = notionPage.properties.Tags.multi_select.map((tag) => tag.name);
-        const slug = notionPage.properties.Slug.rich_text[0]?.plain_text ||
+        // Extract properties with proper null checks
+        const title = notionPage.properties.Title?.title?.[0]?.plain_text || 'Untitled';
+        const date = notionPage.properties.Date?.date?.start || new Date().toISOString().split('T')[0];
+        const excerpt = notionPage.properties.Excerpt?.rich_text?.[0]?.plain_text || '';
+        const author = notionPage.properties.Author?.rich_text?.[0]?.plain_text || 'Katie Kelly';
+        const tags = notionPage.properties.Tags?.multi_select?.map((tag) => tag.name) || [];
+        const slug = notionPage.properties.Slug?.rich_text?.[0]?.plain_text ||
                      title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 
         return {
