@@ -7,6 +7,9 @@ import { MDXRemote } from 'next-mdx-remote/rsc';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 
+// Revalidate every hour (3600 seconds)
+export const revalidate = 3600;
+
 export async function generateStaticParams() {
   const posts = await getPosts();
   return posts.map((post) => ({
