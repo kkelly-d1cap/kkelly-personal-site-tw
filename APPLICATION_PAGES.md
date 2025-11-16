@@ -59,12 +59,19 @@ Edit `app/application/stripe/page.tsx`:
    const pageSlug = 'stripe';  // Must match slug in config
    ```
 
-2. Customize the content:
+2. Choose your application pattern:
+   - **Pattern 1 (Full)**: Keep all sections including Application Questions
+   - **Pattern 2 (General)**: Remove Application Questions, keep strength cards
+   - **Pattern 3 (Minimal)**: Just Hero + 3-4 strengths + Contact
+
+3. Customize the content:
    - Company name and role title
    - Value proposition
-   - Strengths and achievements
-   - Application questions and answers
+   - Strengths and achievements (add/remove cards as needed)
+   - Application questions and answers (if applicable)
    - Thank you message
+
+**Note**: Application Questions section is optional! Delete it if not needed (see template comments).
 
 #### Step 4: Test
 ```bash
@@ -109,6 +116,46 @@ Update both the expiration date and active status:
 }
 ```
 
+## Application Page Patterns
+
+The template supports three common patterns:
+
+### Pattern 1: Full Application (Like Ramp)
+**Use when**: Job posting has specific application questions
+
+**Includes**:
+- Hero section
+- Empathy hook
+- 6 strength cards
+- Key achievement callout
+- Pattern recognition
+- Detailed Q&A section
+- Resources & contact
+
+**Example**: See `app/application/ramp/page.tsx`
+
+### Pattern 2: General Application
+**Use when**: Applying through standard job portals or no specific questions
+
+**Includes**:
+- Hero section
+- Empathy hook
+- 4-6 strength cards
+- Key achievement callout
+- Resources & contact
+
+**To create**: Copy template and delete the Application Questions section
+
+### Pattern 3: Minimal Pitch
+**Use when**: Quick referrals, networking, or informal applications
+
+**Includes**:
+- Hero section
+- 3-4 strength cards
+- Resources & contact
+
+**To create**: Copy template and delete Application Questions, Pattern Recognition, and extra callouts
+
 ## How It Works
 
 1. **Configuration File** (`content/applicationPages.ts`):
@@ -123,8 +170,8 @@ Update both the expiration date and active status:
 
 3. **Template** (`app/application/_template/`):
    - Provides starter structure for new pages
-   - Includes placeholder content
-   - Documents customization process
+   - Modular sections (core + optional)
+   - Clear comments showing what can be removed
 
 ## Expiration Logic
 

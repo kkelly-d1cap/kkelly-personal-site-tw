@@ -169,7 +169,7 @@ export default function ApplicationTemplate() {
         </Container>
       </section>
 
-      {/* Pattern Recognition Callout */}
+      {/* Pattern Recognition Callout - OPTIONAL: Remove if not needed */}
       <section className="bg-charcoal text-white py-12 lg:py-16">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
@@ -183,7 +183,17 @@ export default function ApplicationTemplate() {
         </Container>
       </section>
 
-      {/* Application Questions */}
+      {/*
+        ========================================
+        OPTIONAL SECTION: Application Questions
+        ========================================
+
+        Only include this section if the job application has specific questions to answer.
+        For general applications without questions, delete this entire section and jump
+        straight to "Resources & Contact" below.
+
+        To remove: Delete from here...
+      */}
       <section className="bg-light-gray py-16 lg:py-24">
         <Container>
           <h2 className="font-handwriting text-4xl md:text-5xl mb-12 text-charcoal">
@@ -209,9 +219,22 @@ export default function ApplicationTemplate() {
             </div>
           </div>
 
-          {/* Add more questions as needed */}
+          {/* Question 2 - Add as many questions as needed */}
+          <div className="bg-white rounded-lg shadow-md p-8 mb-8">
+            <h3 className="text-xl font-heading font-bold text-charcoal mb-4">
+              2. [Application Question]
+            </h3>
+            <div className="space-y-6">
+              <p className="text-medium-gray leading-relaxed">
+                [Your answer]
+              </p>
+            </div>
+          </div>
+
+          {/* Add more question blocks as needed */}
         </Container>
       </section>
+      {/* ...to here to remove the Application Questions section */}
 
       {/* Resources & Contact */}
       <section className="bg-white py-16 lg:py-24 border-t-2 border-orange">
