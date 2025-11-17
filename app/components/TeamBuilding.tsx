@@ -9,7 +9,7 @@ export default function TeamBuilding() {
             Building Leaders, Not Just Teams
           </h2>
           <p className="text-xl text-medium-gray max-w-3xl mx-auto">
-            Whether in Operations or Customer Success, my foundation is people-first leadership. I don't just scale headcount—I build managers, create performance frameworks, and develop teams that can sustain growth.
+            Whether in Operations or Customer Success, my foundation is people-first leadership. I don't just scale headcount, I build managers and leader, create performance frameworks, and develop teams that can sustain growth.
           </p>
         </div>
 
