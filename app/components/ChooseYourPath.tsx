@@ -53,9 +53,9 @@ export default function ChooseYourPath() {
                 <p className="text-sm text-medium-gray">60% efficiency improvement | Built 25+ person team in 12 months</p>
               </div>
 
-              <div className="flex items-center text-orange font-medium group-hover:gap-2 transition-all">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-2 border-charcoal text-charcoal font-medium group-hover:bg-charcoal group-hover:text-white transition-all">
                 <span>Explore Operations</span>
-                <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
               </div>
@@ -100,9 +100,9 @@ export default function ChooseYourPath() {
                 <p className="text-sm text-medium-gray">75% time-to-value reduction | Saved $20M+ in ARR churn</p>
               </div>
 
-              <div className="flex items-center text-lime font-medium group-hover:gap-2 transition-all">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-2 border-charcoal text-charcoal font-medium group-hover:bg-charcoal group-hover:text-white transition-all">
                 <span>Explore Customer Success</span>
-                <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
               </div>
