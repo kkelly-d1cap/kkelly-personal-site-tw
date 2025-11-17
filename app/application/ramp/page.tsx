@@ -1,8 +1,14 @@
 import Container from '@/app/components/Container';
 import Image from 'next/image';
 import Link from 'next/link';
+import { redirect } from 'next/navigation';
+import { isApplicationPageActive } from '@/content/applicationPages';
 
 export default function RampApplication() {
+  // Check if this application page is still active
+  if (!isApplicationPageActive('ramp')) {
+    redirect('/');
+  }
   return (
     <>
       {/* Hero Section */}
