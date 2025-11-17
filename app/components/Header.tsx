@@ -11,10 +11,9 @@ export default function Header() {
   const pathname = usePathname();
 
   const navigation = [
-    { name: 'About', href: '/#about' },
-    { name: 'Work', href: '/#work' },
-    { name: 'Experience', href: '/#experience' },
-    // { name: 'Blog', href: '/blog' }, // Temporarily removed while working out kinks
+    { name: 'Home', href: '/' },
+    { name: 'Operations Leadership', href: '/operations-leadership' },
+    { name: 'Customer Success Leadership', href: '/customer-success-leadership' },
     { name: 'Contact', href: '/#contact' },
   ];
 
@@ -28,13 +27,16 @@ export default function Header() {
   }, []);
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    e.preventDefault();
-
-    // If it's the blog link, just navigate normally
-    if (href === '/blog') {
+    // For regular page navigation (no hash), navigate normally
+    if (!href.includes('#')) {
+      e.preventDefault();
       router.push(href);
+      setMobileMenuOpen(false);
       return;
     }
+
+    // For hash links (like Contact)
+    e.preventDefault();
 
     // Extract the hash from the href
     const hash = href.split('#')[1];
@@ -56,6 +58,7 @@ export default function Header() {
         element.scrollIntoView({ behavior: 'smooth' });
       }
     }
+    setMobileMenuOpen(false);
   };
 
   return (
