@@ -40,7 +40,7 @@ export default function FeaturedProject({
   impact,
 }: FeaturedProjectProps) {
   return (
-    <section id="work" className="bg-white py-20 lg:py-32">
+    <section id="work" className="bg-light-gray py-20 lg:py-32">
       <Container>
         <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
           Impact
