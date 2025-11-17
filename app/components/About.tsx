@@ -9,7 +9,7 @@ export default function About() {
             Who I Am
           </h2>
           <p className="text-xl md:text-2xl text-medium-gray leading-relaxed">
-            I'm a FinTech operations leader who builds and scales high-performing teams. Over the past decade, I've specialized in turning operational chaos into streamlined systems that support rapid growth—building teams from 3 to 25+, doubling throughput, and creating frameworks that make hypergrowth sustainable.
+            I'm a FinTech operations leader who builds and scales high-performing teams. Over the past decade, I've specialized in turning operational chaos into streamlined systems that support rapid growth: building 25+ person teams from the ground up, doubling throughput, and creating frameworks that make hypergrowth sustainable.
           </p>
         </div>
       </Container>
