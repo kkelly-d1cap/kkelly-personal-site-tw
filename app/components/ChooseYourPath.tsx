@@ -16,7 +16,7 @@ export default function ChooseYourPath() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Operations Card */}
-          <Link href="/operations-leadership" className="group">
+          <Link href="/operations" className="group">
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-orange h-full">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-orange/10 p-4 rounded-lg group-hover:bg-orange/20 transition-colors">
@@ -63,7 +63,7 @@ export default function ChooseYourPath() {
           </Link>
 
           {/* Customer Success Card */}
-          <Link href="/customer-success-leadership" className="group">
+          <Link href="/customer-success" className="group">
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-lime h-full">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-lime/10 p-4 rounded-lg group-hover:bg-lime/20 transition-colors">
@@ -72,36 +72,36 @@ export default function ChooseYourPath() {
                   </svg>
                 </div>
                 <h3 className="font-heading font-bold text-2xl text-charcoal">
-                  Customer Success
+                  Customer Success & Professional Services
                 </h3>
               </div>
 
               <p className="text-medium-gray mb-6 leading-relaxed">
-                Scaling Customer Success operations that drive retention and expansion. I build CS organizations that accelerate activation and turn expansion into a repeatable operational system.
+                Blending Customer Success with implementation operations—running embedded professional services at scale. I build post-sales organizations that deliver successful implementations, drive retention, and turn expansion into repeatable systems.
               </p>
 
               <div className="space-y-3 mb-6">
                 <div className="flex items-start">
                   <span className="text-lime mr-2 mt-1">✓</span>
-                  <span className="text-medium-gray">CS org building & manager development</span>
+                  <span className="text-medium-gray">Implementation & onboarding at scale (500+ annually)</span>
                 </div>
                 <div className="flex items-start">
                   <span className="text-lime mr-2 mt-1">✓</span>
-                  <span className="text-medium-gray">Activation & onboarding optimization</span>
+                  <span className="text-medium-gray">CS org building with PS delivery methodologies</span>
                 </div>
                 <div className="flex items-start">
                   <span className="text-lime mr-2 mt-1">✓</span>
-                  <span className="text-medium-gray">Retention & expansion frameworks</span>
+                  <span className="text-medium-gray">Retention frameworks & value realization</span>
                 </div>
               </div>
 
               <div className="bg-lime/5 p-4 rounded-lg mb-6">
                 <p className="text-sm font-bold text-lime mb-1">Recent Impact</p>
-                <p className="text-sm text-medium-gray">75% time-to-value reduction | Saved $20M+ in ARR churn</p>
+                <p className="text-sm text-medium-gray">500+ implementations | 75% faster time-to-value | $20M+ churn prevented</p>
               </div>
 
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-2 border-charcoal text-charcoal font-medium group-hover:bg-charcoal group-hover:text-white transition-all">
-                <span>Explore Customer Success</span>
+                <span>Explore CS & Professional Services</span>
                 <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>

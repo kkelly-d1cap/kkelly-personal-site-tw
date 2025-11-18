@@ -2,14 +2,15 @@ import type { Metadata } from 'next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Container from '../components/Container';
+import FindMe from '../components/FindMe';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Katie Kelly - Customer Success Leadership',
-  description: 'Scaling Customer Success operations for fintech and SaaS platforms. Expert in onboarding, activation, retention, and expansion.',
+  title: 'Katie Kelly - Operations & Organizational Leadership',
+  description: 'Building scalable operations for growth-stage B2B companies. Expert in organizational design, team building, and operational transformation.',
 };
 
-export default function CustomerSuccessLeadership() {
+export default function OperationsLeadership() {
   return (
     <>
       <Header />
@@ -38,16 +39,16 @@ export default function CustomerSuccessLeadership() {
             {/* Main Headline */}
             <div className="max-w-4xl">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold mb-6">
-                Scaling Customer Success Operations That Drive Retention & Expansion
+                Building Operational Infrastructure for Growth-Stage B2B Companies
               </h1>
 
               <p className="text-lg md:text-xl text-gray-300 mb-6 max-w-3xl">
-                Customer Success & Implementation Leader | Growth-Stage Fintech & SaaS
+                Operations & Organizational Leader | Scaling Teams & Systems for Sustainable Growth
               </p>
 
               {/* Value Proposition with Orange Handwritten */}
               <p className="text-3xl md:text-4xl lg:text-5xl mb-12 font-handwritten text-orange">
-                I build Customer Success organizations that accelerate activation and turn expansion into a repeatable system
+                I build and scale operations that turn organizational chaos into competitive advantage
               </p>
 
               {/* Social Links - Neon Style */}
@@ -78,58 +79,37 @@ export default function CustomerSuccessLeadership() {
           </Container>
         </section>
 
-        {/* How I Build CS Organizations Section */}
+        {/* What I Build Section */}
         <section id="about" className="bg-white py-16 lg:py-24">
           <Container>
             <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-              How I Build CS Organizations
+              What I Build
             </h2>
             <div className="max-w-4xl space-y-6 text-lg text-medium-gray leading-relaxed">
               <p>
-                I build Customer Success organizations that drive retention, expansion, and client outcomes for growth-stage fintech and SaaS platforms.
+                I specialize in the messy, high-stakes work of scaling client-facing operations in complex, regulated environments. My focus is organizational building and operational scale: taking teams from 3 to 25+, doubling throughput without proportional headcount increases, and creating the frameworks that make growth sustainable.
               </p>
               <p>
-                Over the past decade, I've specialized in scaling the post-sale client journey—from activation through expansion—in complex, regulated environments where operational excellence isn't optional. My approach combines systematic process design with people-first leadership to build teams that deliver enterprise-grade quality at scale.
+                Over the past decade in fintech and enterprise SaaS, I've built multi-layer operational organizations, redesigned operating models for 50+ person teams, and prevented $20M+ in business risk through systematic quality improvements and cross-functional alignment.
               </p>
-              <div className="bg-orange/10 border-l-4 border-orange p-6 rounded-r-lg">
-                <h3 className="font-heading font-bold text-xl text-charcoal mb-4">Recent CS impact:</h3>
-                <ul className="space-y-2">
-                  <li className="flex">
-                    <span className="text-orange mr-2">•</span>
-                    <span>Built CS organization from 3 to 25+ professionals (5+ managers) in 12 months</span>
-                  </li>
-                  <li className="flex">
-                    <span className="text-orange mr-2">•</span>
-                    <span>Saved $20M+ in at-risk ARR by rehabilitating enterprise clients</span>
-                  </li>
-                  <li className="flex">
-                    <span className="text-orange mr-2">•</span>
-                    <span>Doubled implementation throughput to 500+ annually while reducing time-to-value 75%</span>
-                  </li>
-                  <li className="flex">
-                    <span className="text-orange mr-2">•</span>
-                    <span>Led cross-functional automation delivering $500K+ in annual cost savings</span>
-                  </li>
-                </ul>
-              </div>
               <div className="bg-light-gray p-6 rounded-lg mt-8">
-                <h3 className="font-heading font-bold text-xl text-charcoal mb-4">Where I make the biggest impact:</h3>
+                <h3 className="font-heading font-bold text-xl text-charcoal mb-4">Where I excel:</h3>
                 <ul className="space-y-3">
                   <li className="flex">
                     <span className="text-orange mr-3 mt-1">•</span>
-                    <span><strong className="text-charcoal">CS org building:</strong> Creating multi-layer teams with scalable hiring, manager development, and performance frameworks</span>
+                    <span><strong className="text-charcoal">Organizational design:</strong> Building multi-layer teams, developing managers, creating performance systems that scale</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-3 mt-1">•</span>
-                    <span><strong className="text-charcoal">Activation & onboarding:</strong> Building systems that accelerate time-to-value while maintaining quality</span>
+                    <span><strong className="text-charcoal">Operational transformation:</strong> Taking inherited dysfunction and implementing frameworks that deliver measurable results (60% efficiency gains, 75% time-to-value reduction)</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-3 mt-1">•</span>
-                    <span><strong className="text-charcoal">Retention operations:</strong> Diagnosing systemic issues and implementing frameworks that prevent churn</span>
+                    <span><strong className="text-charcoal">Cross-functional leadership:</strong> Partnering across Sales, Product, Engineering, and Finance to build alignment and drive strategic outcomes</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-3 mt-1">•</span>
-                    <span><strong className="text-charcoal">GTM alignment:</strong> Establishing Sales-to-CS handoffs and Product partnerships that drive strategic outcomes</span>
+                    <span><strong className="text-charcoal">Change management:</strong> Navigating organizational politics and shifting dysfunctional narratives through data-driven problem-solving</span>
                   </li>
                 </ul>
               </div>
@@ -137,11 +117,11 @@ export default function CustomerSuccessLeadership() {
           </Container>
         </section>
 
-        {/* Customer Success Impact Section */}
+        {/* Operational Impact Section */}
         <section id="work" className="bg-light-gray py-16 lg:py-24">
           <Container>
             <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-              Customer Success Impact
+              Operational Impact
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Card 1 */}
@@ -154,13 +134,13 @@ export default function CustomerSuccessLeadership() {
                   </div>
                   <div className="flex-1">
                     <h3 className="font-heading font-bold text-xl text-charcoal mb-2">
-                      Built CS Org from 3 to 25+ in 12 Months
+                      Built Multi-Layer Operations Team
                     </h3>
                     <p className="text-orange font-bold text-sm mb-3">
-                      5+ managers developed | 100% increase in team capability
+                      3→25+ professionals in 12 months | 5+ managers developed
                     </p>
                     <p className="text-medium-gray">
-                      Established multi-layer CS team with scalable frameworks for hiring, manager coaching, and performance management that elevated retention and outcomes.
+                      Designed scalable hiring frameworks, manager development programs, and performance systems that enabled sustainable growth and retention.
                     </p>
                   </div>
                 </div>
@@ -171,18 +151,18 @@ export default function CustomerSuccessLeadership() {
                 <div className="flex items-start gap-4">
                   <div className="bg-orange/10 p-3 rounded-lg">
                     <svg className="w-6 h-6 text-orange" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
                     </svg>
                   </div>
                   <div className="flex-1">
                     <h3 className="font-heading font-bold text-xl text-charcoal mb-2">
-                      Reduced Time-to-Value 75%
+                      Transformed 50+ Person Global Operations
                     </h3>
                     <p className="text-orange font-bold text-sm mb-3">
-                      8 weeks → 2 weeks for SMB/Mid-Market | 500+ annual implementations
+                      60% efficiency improvement | 20% output increase | 25% workforce reduction
                     </p>
                     <p className="text-medium-gray">
-                      Built standardized playbooks, intake forms, and execution frameworks that accelerated client expansion cycles and revenue recognition.
+                      Implemented comprehensive operating model with segment-based coverage, role clarity, and systematic execution frameworks.
                     </p>
                   </div>
                 </div>
@@ -198,13 +178,13 @@ export default function CustomerSuccessLeadership() {
                   </div>
                   <div className="flex-1">
                     <h3 className="font-heading font-bold text-xl text-charcoal mb-2">
-                      Saved $20M+ in At-Risk ARR
+                      Prevented $20M+ in ARR Churn
                     </h3>
                     <p className="text-orange font-bold text-sm mb-3">
                       3 top-5 enterprise clients rehabilitated in 90 days
                     </p>
                     <p className="text-medium-gray">
-                      Implemented systematic quality frameworks, escalation protocols, and strategic account alignment that prevented churn and accelerated expansion.
+                      Built systematic quality frameworks, cross-functional escalation protocols, and strategic account alignment that restored client trust and expansion velocity.
                     </p>
                   </div>
                 </div>
@@ -215,18 +195,18 @@ export default function CustomerSuccessLeadership() {
                 <div className="flex items-start gap-4">
                   <div className="bg-orange/10 p-3 rounded-lg">
                     <svg className="w-6 h-6 text-orange" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
                   <div className="flex-1">
                     <h3 className="font-heading font-bold text-xl text-charcoal mb-2">
-                      Built High-Velocity Expansion Model
+                      Established Sales-to-Operations Protocols
                     </h3>
                     <p className="text-orange font-bold text-sm mb-3">
-                      Doubled throughput from 250 to 500+ annual onboardings
+                      98% configuration readiness | 40% SLA reduction
                     </p>
                     <p className="text-medium-gray">
-                      Created scalable onboarding engine processing existing client expansions with measurable adoption maturity curves (cleaner intake, faster execution with each fund added).
+                      Created formal handoff processes requiring capacity validation and roadmap alignment before client commitments, eliminating operational chaos.
                     </p>
                   </div>
                 </div>
@@ -235,18 +215,18 @@ export default function CustomerSuccessLeadership() {
           </Container>
         </section>
 
-        {/* CS Experience Highlights Section */}
+        {/* Experience Highlights Section */}
         <section id="experience" className="bg-white py-16 lg:py-24">
           <Container>
             <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-              Customer Success Experience
+              Experience Highlights
             </h2>
             <div className="space-y-8 max-w-4xl">
               {/* iCapital SVP */}
               <div className="pl-6">
                 <div className="mb-4">
                   <h3 className="font-heading font-bold text-2xl text-charcoal mb-2">
-                    Senior Vice President, Customer Success Operations
+                    Senior Vice President, Operations
                   </h3>
                   <p className="text-lg text-medium-gray">
                     iCapital | 2024-2025
@@ -255,23 +235,19 @@ export default function CustomerSuccessLeadership() {
                 <ul className="space-y-2 text-medium-gray">
                   <li className="flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>Built multi-layer CS organization (3→25+; 5+ managers) within 12 months</span>
+                    <span>Built multi-layer operations organization from 3 to 25+ professionals in 12 months</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>Doubled annual implementation volume to 500+ with 75% time-to-value improvement</span>
+                    <span>Doubled annual implementation throughput to 500+ while maintaining enterprise-grade quality</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>Prevented $20M+ ARR churn by rehabilitating top enterprise accounts</span>
+                    <span>Prevented $20M+ in ARR churn through systematic quality improvements</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>Established Sales-to-CS handoff protocols achieving 98% configuration readiness</span>
-                  </li>
-                  <li className="flex">
-                    <span className="text-orange mr-2">•</span>
-                    <span>Managed bifurcated operations: onboarding/activation + support (25K+ annual tickets)</span>
+                    <span>Established GTM alignment frameworks across Sales, Product, and delivery operations</span>
                   </li>
                 </ul>
               </div>
@@ -280,7 +256,7 @@ export default function CustomerSuccessLeadership() {
               <div className="pl-6">
                 <div className="mb-4">
                   <h3 className="font-heading font-bold text-2xl text-charcoal mb-2">
-                    Vice President, Platform Operations & Implementation
+                    Vice President, Operations
                   </h3>
                   <p className="text-lg text-medium-gray">
                     iCapital | 2021-2023
@@ -289,23 +265,19 @@ export default function CustomerSuccessLeadership() {
                 <ul className="space-y-2 text-medium-gray">
                   <li className="flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>Led 75+ platform implementations spanning SMB to Enterprise (6 weeks to 12+ months)</span>
+                    <span>Redesigned operating model for 50+ person global implementation organization</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>Improved SMB/Mid-Market time-to-value 50% (3 months → 6 weeks)</span>
+                    <span>Achieved 60% efficiency improvement while increasing output 20% despite 25% workforce reduction</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>Achieved 60% efficiency improvement while increasing output 20%</span>
+                    <span>Reduced time-to-value 75% (8 weeks → 2 weeks) for SMB and Mid-Market segments</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>Designed comprehensive training strategy reducing new employee onboarding 85% (3 months → 4 weeks)</span>
-                  </li>
-                  <li className="flex">
-                    <span className="text-orange mr-2">•</span>
-                    <span>Led $500K automation initiative with Product, Data, and Engineering teams</span>
+                    <span>Led $500K cost savings automation initiative across Product, Engineering, and Operations</span>
                   </li>
                 </ul>
               </div>
@@ -323,19 +295,19 @@ export default function CustomerSuccessLeadership() {
                 <ul className="space-y-2 text-medium-gray">
                   <li className="flex">
                     <span className="text-orange mr-2">•</span>
+                    <span>Led operations for Fortune 100 clients, government agencies, and institutional investors</span>
+                  </li>
+                  <li className="flex">
+                    <span className="text-orange mr-2">•</span>
                     <span>Delivered $1B+ in client outcomes across 200+ implementation projects</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>Built scalable framework enabling multi-billion-dollar transactions in 4-6 week cycles (60% faster than industry standard)</span>
+                    <span>Managed enterprise transactions ranging from $75MM to $5B with strict compliance requirements</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-2">•</span>
-                    <span>Managed enterprise programs ($75MM-$5B) with strict compliance and multi-stakeholder coordination</span>
-                  </li>
-                  <li className="flex">
-                    <span className="text-orange mr-2">•</span>
-                    <span>Led complex program for largest enterprise transaction in company history (30K assets, $5B, US Dept of HUD)</span>
+                    <span>Built scalable execution framework enabling multi-billion-dollar transactions in 4-6 week cycles</span>
                   </li>
                 </ul>
               </div>
@@ -354,6 +326,7 @@ export default function CustomerSuccessLeadership() {
             </div>
           </Container>
         </section>
+        <FindMe />
       </main>
       <Footer />
     </>
