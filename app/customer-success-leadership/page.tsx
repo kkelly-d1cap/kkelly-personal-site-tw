@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Container from '../components/Container';
+import FindMe from '../components/FindMe';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
@@ -354,6 +355,7 @@ export default function CustomerSuccessLeadership() {
             </div>
           </Container>
         </section>
+        <FindMe />
       </main>
       <Footer />
     </>
