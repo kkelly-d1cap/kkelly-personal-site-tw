@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import ChooseYourPath from './components/ChooseYourPath';
 import TeamBuilding from './components/TeamBuilding';
+import Experience from './components/Experience';
 import FeaturedProject from './components/FeaturedProject';
 import { featuredProject } from '@/content/featuredProject';
 import FindMe from './components/FindMe';
@@ -17,6 +18,7 @@ export default function Home() {
         <About />
         <ChooseYourPath />
         <TeamBuilding />
+        <Experience />
         <FeaturedProject {...featuredProject} />
         <FindMe />
       </main>
