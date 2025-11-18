@@ -43,7 +43,7 @@ export default function CustomerSuccessLeadership() {
               </h1>
 
               <p className="text-lg md:text-xl text-gray-300 mb-6 max-w-3xl">
-                Building post-sales organizations that blend CS with implementation operations—running embedded professional services at scale
+                Over the past decade, I've specialized in scaling the post-sale client delivery from onboarding through expansion in complex, regulated environments. My approach combines systematic process design with team-oriented leadership to build high-performing teams that deliver enterprise-grade quality at scale.
               </p>
 
               {/* Value Proposition with Orange Handwritten */}
@@ -83,7 +83,7 @@ export default function CustomerSuccessLeadership() {
         <section id="about" className="bg-white py-16 lg:py-24">
           <Container>
             <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-              How I Build CS Organizations
+              How I Build CS & PS Organizations
             </h2>
             <div className="max-w-4xl space-y-6 text-lg text-medium-gray leading-relaxed">
               <p>
@@ -118,11 +118,11 @@ export default function CustomerSuccessLeadership() {
                 <ul className="space-y-3">
                   <li className="flex">
                     <span className="text-orange mr-3 mt-1">•</span>
-                    <span><strong className="text-charcoal">CS org building:</strong> Creating multi-layer teams with scalable hiring, manager development, and performance frameworks</span>
+                    <span><strong className="text-charcoal">CS & PS org building:</strong> Creating multi-layer teams with scalable hiring, manager development, and performance frameworks</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-3 mt-1">•</span>
-                    <span><strong className="text-charcoal">Activation & onboarding:</strong> Building systems that accelerate time-to-value while maintaining quality</span>
+                    <span><strong className="text-charcoal">Implementation & onboarding:</strong> Building systems that accelerate time-to-value while maintaining quality</span>
                   </li>
                   <li className="flex">
                     <span className="text-orange mr-3 mt-1">•</span>
@@ -138,11 +138,11 @@ export default function CustomerSuccessLeadership() {
           </Container>
         </section>
 
-        {/* Customer Success Impact Section */}
+        {/* Impact Section */}
         <section id="work" className="bg-light-gray py-16 lg:py-24">
           <Container>
             <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-              Customer Success Impact
+              Impact
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Card 1 */}
@@ -236,11 +236,11 @@ export default function CustomerSuccessLeadership() {
           </Container>
         </section>
 
-        {/* CS Experience Highlights Section */}
-        <section id="experience" className="bg-white py-16 lg:py-24">
+        {/* Experience Highlights Section */}
+        <section id="experience" className="bg-white py-16 lg:py-24 border-t-2 border-light-gray">
           <Container>
             <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-              Customer Success Experience
+              Experience
             </h2>
             <div className="space-y-8 max-w-4xl">
               {/* iCapital SVP */}
