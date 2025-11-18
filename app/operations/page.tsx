@@ -32,7 +32,7 @@ export default function OperationsLeadership() {
               </div>
               <div>
                 <h2 className="text-xl font-heading font-bold">Katie Kelly</h2>
-                <p className="text-gray-400 text-sm">SVP Operations</p>
+                <p className="text-gray-400 text-sm">Growth-Stage FinTech Leader</p>
               </div>
             </div>
 
