@@ -18,8 +18,8 @@ export default function Home() {
         <About />
         <ChooseYourPath />
         <TeamBuilding />
-        <Experience />
         <FeaturedProject {...featuredProject} />
+        <Experience />
         <FindMe />
       </main>
       <Footer />
