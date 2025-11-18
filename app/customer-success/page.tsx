@@ -247,7 +247,7 @@ export default function CustomerSuccessLeadership() {
               <div className="pl-6">
                 <div className="mb-4">
                   <h3 className="font-heading font-bold text-2xl text-charcoal mb-2">
-                    Senior Vice President, Customer Success Operations
+                    Senior Vice President, Customer Success and Operations
                   </h3>
                   <p className="text-lg text-medium-gray">
                     iCapital | 2024-2025
@@ -281,7 +281,7 @@ export default function CustomerSuccessLeadership() {
               <div className="pl-6">
                 <div className="mb-4">
                   <h3 className="font-heading font-bold text-2xl text-charcoal mb-2">
-                    Vice President, Platform Operations & Implementation
+                    Vice President, Operations & Implementation
                   </h3>
                   <p className="text-lg text-medium-gray">
                     iCapital | 2021-2023
