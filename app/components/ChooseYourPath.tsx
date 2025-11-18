@@ -16,7 +16,7 @@ export default function ChooseYourPath() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Operations Card */}
-          <Link href="/operations-leadership" className="group">
+          <Link href="/operations" className="group">
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-orange h-full">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-orange/10 p-4 rounded-lg group-hover:bg-orange/20 transition-colors">
@@ -63,7 +63,7 @@ export default function ChooseYourPath() {
           </Link>
 
           {/* Customer Success Card */}
-          <Link href="/customer-success-leadership" className="group">
+          <Link href="/customer-success" className="group">
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-lime h-full">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-lime/10 p-4 rounded-lg group-hover:bg-lime/20 transition-colors">
