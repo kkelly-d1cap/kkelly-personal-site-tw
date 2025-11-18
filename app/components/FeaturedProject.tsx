@@ -56,7 +56,7 @@ export default function FeaturedProject({
 
             {/* Big Hero Numbers */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-light-gray p-6 rounded-lg text-center">
+              <div className="bg-white p-6 rounded-lg text-center shadow-sm">
                 <div className="text-4xl md:text-5xl font-bold text-orange mb-2">
                   {heroMetrics.efficiency}
                 </div>
@@ -64,7 +64,7 @@ export default function FeaturedProject({
                   Net Efficiency
                 </div>
               </div>
-              <div className="bg-light-gray p-6 rounded-lg text-center">
+              <div className="bg-white p-6 rounded-lg text-center shadow-sm">
                 <div className="text-4xl md:text-5xl font-bold text-orange mb-2">
                   {heroMetrics.output}
                 </div>
@@ -72,7 +72,7 @@ export default function FeaturedProject({
                   Output
                 </div>
               </div>
-              <div className="bg-light-gray p-6 rounded-lg text-center">
+              <div className="bg-white p-6 rounded-lg text-center shadow-sm">
                 <div className="text-4xl md:text-5xl font-bold text-orange mb-2">
                   {heroMetrics.teamSize}
                 </div>
@@ -140,7 +140,7 @@ export default function FeaturedProject({
                 Key Metrics
               </h4>
               {/* Timeframe */}
-              <div className="bg-light-gray p-3 rounded-lg w-full sm:w-fit text-center sm:text-left">
+              <div className="bg-white p-3 rounded-lg w-full sm:w-fit text-center sm:text-left shadow-sm">
                 <span className="text-sm text-medium-gray font-medium">
                   Timeframe:
                 </span>
@@ -154,7 +154,7 @@ export default function FeaturedProject({
               {metrics.map((metric, index) => (
                 <div
                   key={index}
-                  className="bg-white border-2 border-light-gray p-4 rounded-lg hover:border-orange transition-colors"
+                  className="bg-white border-2 border-charcoal/20 p-4 rounded-lg hover:border-orange transition-colors shadow-sm"
                 >
                   <div className="text-sm text-medium-gray mb-2">
                     {metric.label}
