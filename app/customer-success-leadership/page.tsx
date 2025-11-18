@@ -5,8 +5,8 @@ import Container from '../components/Container';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Katie Kelly - Customer Success Leadership',
-  description: 'Scaling Customer Success operations for fintech and SaaS platforms. Expert in onboarding, activation, retention, and expansion.',
+  title: 'Katie Kelly - Customer Success & Professional Services Leadership',
+  description: 'Building post-sales organizations that blend Customer Success with implementation operations. Expert in CS delivery, professional services at scale, and driving retention & expansion.',
 };
 
 export default function CustomerSuccessLeadership() {
@@ -38,16 +38,16 @@ export default function CustomerSuccessLeadership() {
             {/* Main Headline */}
             <div className="max-w-4xl">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold mb-6">
-                Scaling Customer Success Operations That Drive Retention & Expansion
+                Customer Success & Professional Services Leadership
               </h1>
 
               <p className="text-lg md:text-xl text-gray-300 mb-6 max-w-3xl">
-                Customer Success & Implementation Leader | Growth-Stage Fintech & SaaS
+                Building post-sales organizations that blend CS with implementation operations—running embedded professional services at scale
               </p>
 
               {/* Value Proposition with Orange Handwritten */}
               <p className="text-3xl md:text-4xl lg:text-5xl mb-12 font-handwritten text-orange">
-                I build Customer Success organizations that accelerate activation and turn expansion into a repeatable system
+                500+ implementations annually while building CS teams that drive retention, expansion, and customer outcomes
               </p>
 
               {/* Social Links - Neon Style */}
