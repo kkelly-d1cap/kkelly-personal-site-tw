@@ -30,7 +30,7 @@ export const applicationPages: ApplicationPage[] = [
     slug: 'proof',
     company: 'Proof',
     role: 'Senior Director Customer Success & Professional Services',
-    expiresAt: new Date('2025-11-21'), // Application deadline
+    expiresAt: new Date('2026-01-15'), // Page expires Jan 15, 2026 (app deadline Nov 21, 2025)
     isActive: true,
   },
   // Add new application pages here:
