@@ -1,8 +1,9 @@
 import Container from './Container';
+import Image from 'next/image';
 
 export default function Experience() {
   return (
-    <section id="experience" className="bg-light-gray py-16 lg:py-24">
+    <section id="experience" className="bg-light-gray py-16 lg:py-24 border-b-2 border-orange">
       <Container>
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12">
           <h2 className="font-handwritten text-4xl md:text-5xl text-charcoal mb-6 lg:mb-0">
@@ -183,6 +184,30 @@ export default function Experience() {
               </li>
             </ul>
           </div>
+        </div>
+
+        {/* Education Highlights */}
+        <div className="flex justify-center items-center gap-12 md:gap-20 mt-12 pt-8">
+          {[
+            { logo: '/NESL-150x150.jpg', alt: 'New England School of Law' },
+            { logo: '/PC2-150x150.jpg', alt: 'Providence College' },
+            { logo: '/bbo-150x150.png', alt: 'Commonwealth of Massachusetts Bar' },
+            { logo: '/friar-150x150.png', alt: 'Providence Field Hockey' },
+          ].map((item, index) => (
+            <div
+              key={index}
+              className="relative w-9 h-9 md:w-11 md:h-11 bg-white rounded-sm p-1"
+              style={{ opacity: 0.4 }}
+            >
+              <Image
+                src={item.logo}
+                alt={item.alt}
+                width={44}
+                height={44}
+                className="object-contain grayscale mix-blend-multiply"
+              />
+            </div>
+          ))}
         </div>
       </Container>
     </section>
