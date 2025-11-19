@@ -39,7 +39,7 @@ export default function ProofApplication() {
                 </div>
                 <div>
                   <h2 className="text-xl font-heading font-bold">Katie Kelly</h2>
-                  <p className="text-gray-400">Growth-Stage FinTech Leader</p>
+                  <p className="text-gray-400">Growth-Stage Operations Leader</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">

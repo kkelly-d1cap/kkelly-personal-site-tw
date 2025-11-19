@@ -1,7 +1,7 @@
 export const config = {
   personal: {
     name: 'Katie Kelly',
-    title: 'Growth-Stage FinTech Leader',
+    title: 'Growth-Stage Operations Leader',
     email: 'hello@katiekelly.com',
   },
   hero: {
