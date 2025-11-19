@@ -88,7 +88,7 @@ export default function ProofApplication() {
       <section className="bg-white py-16 lg:py-24">
         <Container>
           <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-            Why I'm the Right Fit
+            Key Qualifications
           </h2>
 
           {/* Empathy Hook */}
@@ -170,7 +170,7 @@ export default function ProofApplication() {
       <section className="bg-light-gray py-16 lg:py-24">
         <Container>
           <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-            How I Drive Results
+            Proven Methodologies
           </h2>
 
           <div className="space-y-12">
