@@ -1,3 +1,4 @@
+import { config } from '@/content/config';
 import Container from './Container';
 
 export default function About() {
@@ -6,10 +7,10 @@ export default function About() {
       <Container>
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-handwritten text-4xl md:text-5xl mb-8 text-charcoal">
-            Who I Am
+            {config.about.heading}
           </h2>
           <p className="text-xl md:text-2xl text-medium-gray leading-relaxed">
-            I'm a FinTech operations leader who builds and scales high-performing teams. Over the past decade, I've specialized in turning operational chaos into streamlined systems that support rapid growth: building 25+ person teams from the ground up, doubling throughput, and creating frameworks that make hypergrowth sustainable.
+            {config.about.content}
           </p>
         </div>
       </Container>
