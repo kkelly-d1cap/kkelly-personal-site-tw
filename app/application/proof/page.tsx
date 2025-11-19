@@ -18,7 +18,7 @@ export default function ProofApplication() {
             <div className="mb-8">
               <p className="text-lime text-sm font-medium mb-2">APPLICATION FOR</p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-4">
-                Senior Director Customer Success & Professional Services
+                Sr. Director CS & Professional Services
               </h1>
               <p className="text-2xl md:text-3xl text-gray-300">
                 Proof
@@ -39,7 +39,7 @@ export default function ProofApplication() {
                 </div>
                 <div>
                   <h2 className="text-xl font-heading font-bold">Katie Kelly</h2>
-                  <p className="text-gray-400">FinTech Operations Leader</p>
+                  <p className="text-gray-400">Growth-Stage FinTech Leader</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -94,14 +94,14 @@ export default function ProofApplication() {
           {/* Empathy Hook */}
           <div className="bg-lime/10 border-l-4 border-lime p-6 rounded-r-lg mb-12">
             <p className="text-lg text-charcoal leading-relaxed italic">
-              For the past 15 years, I've built and scaled post-sales organizations that blend Customer Success with implementation operations—essentially running embedded professional services at scale. At iCapital, I led 500+ complex platform implementations annually while building a 25-person CS organization, applying PS methodologies to drive efficiency, profitability, and customer outcomes. I see Proof as an opportunity to bring this exact playbook to a role designed for someone who understands both the art of customer success and the science of professional services delivery.
+              For the past 15+ years, I've built and scaled post-sales organizations that blend Customer Success with implementation operations, essentially running embedded professional services at scale. At iCapital, I led 500+ complex platform implementations annually while building a 25-person CS organization, applying PS methodologies to drive efficiency, profitability, and customer outcomes. I see Proof as an opportunity to bring this exact playbook to a role designed for someone who understands both the art of customer success and the science of professional services delivery.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="bg-light-gray p-6 rounded-lg">
               <h3 className="font-heading font-bold text-xl text-charcoal mb-3">
-                10+ Years Progressive CS & Professional Services Leadership
+                15+ Years Progressive CS & Professional Services Leadership
               </h3>
               <p className="text-medium-gray">
                 Built and scaled customer success and implementation organizations in SaaS environments. At iCapital, built a 25+ person CS organization from scratch in 12 months and redesigned operations for a 50+ person global implementation team, delivering measurable efficiency gains while maintaining quality.
@@ -162,81 +162,6 @@ export default function ProofApplication() {
             <p className="text-medium-gray text-lg">
               Led SMB and Mid-Market client operations through hypergrowth, achieving +20% output increase while reducing headcount 25% through systematic process improvement, team restructuring, knowledge systems, smart resource allocation, and performance analytics.
             </p>
-          </div>
-        </Container>
-      </section>
-
-      {/* Alignment with Proof Pillars */}
-      <section className="bg-light-gray py-16 lg:py-24">
-        <Container>
-          <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-            Alignment with Proof's Pillars
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="bg-orange/10 p-3 rounded-lg">
-                  <svg className="w-6 h-6 text-orange" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <h3 className="font-heading font-bold text-xl text-charcoal">
-                  Pave the Way
-                </h3>
-              </div>
-              <p className="text-medium-gray">
-                I don't wait for perfect conditions—I build frameworks from scratch. At iCapital, I created the operational blueprint that became the standard for the company, establishing processes that enabled sustainable hypergrowth.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="bg-orange/10 p-3 rounded-lg">
-                  <svg className="w-6 h-6 text-orange" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
-                  </svg>
-                </div>
-                <h3 className="font-heading font-bold text-xl text-charcoal">
-                  Own It
-                </h3>
-              </div>
-              <p className="text-medium-gray">
-                When an enterprise client faced $500K in recurring costs threatening their retention, I took ownership—coordinating a 4-month cross-functional initiative to deliver automation that saved the account and created expansion opportunity.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="bg-orange/10 p-3 rounded-lg">
-                  <svg className="w-6 h-6 text-orange" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-                  </svg>
-                </div>
-                <h3 className="font-heading font-bold text-xl text-charcoal">
-                  Act with Integrity
-                </h3>
-              </div>
-              <p className="text-medium-gray">
-                My teams know I prioritize transparency and ethical decision-making. I build trust with clients by setting realistic expectations and always delivering on commitments, even when it requires difficult conversations or additional investment.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="bg-orange/10 p-3 rounded-lg">
-                  <svg className="w-6 h-6 text-orange" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0" />
-                  </svg>
-                </div>
-                <h3 className="font-heading font-bold text-xl text-charcoal">
-                  Play to Win
-                </h3>
-              </div>
-              <p className="text-medium-gray">
-                I'm competitive about outcomes: 60% efficiency improvement, 75% reduction in training time, $20M+ in prevented churn. I set ambitious goals, build the systems to achieve them, and measure relentlessly to ensure we're winning for customers and the business.
-              </p>
-            </div>
           </div>
         </Container>
       </section>
