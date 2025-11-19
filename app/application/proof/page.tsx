@@ -149,7 +149,7 @@ export default function ProofApplication() {
                 Metrics-Driven & Data-Informed Decision Making
               </h3>
               <p className="text-medium-gray">
-                Built comprehensive reporting infrastructure (Excel → Tableau) tracking efficiency, utilization, quality, and customer outcomes. Defined and tracked KPIs including NPS, CSAT, time-to-value, renewal rates, and team productivity metrics. Used data to drive strategic resource allocation and process improvements.
+                Built reporting infrastructure tracking efficiency, utilization, quality, and customer outcomes. Defined and tracked KPIs including time-to-value and team productivity metrics. Used data to drive strategic resource allocation and process improvements.
               </p>
             </div>
           </div>
