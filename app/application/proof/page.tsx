@@ -18,7 +18,7 @@ export default function ProofApplication() {
             <div className="mb-8">
               <p className="text-lime text-sm font-medium mb-2">APPLICATION FOR</p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-4">
-                Sr. Director CS & Professional Services
+                Senior Director CS & Professional Services
               </h1>
               <p className="text-2xl md:text-3xl text-gray-300">
                 Proof
