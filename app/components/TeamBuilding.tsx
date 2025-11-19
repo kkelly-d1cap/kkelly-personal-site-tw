@@ -9,7 +9,7 @@ export default function TeamBuilding() {
             Building Leaders, Not Just Teams
           </h2>
           <p className="text-xl text-medium-gray max-w-3xl mx-auto">
-            Whether in Operations or Customer Success, my foundation is people-first leadership. I don't just scale headcount, I build managers and leader, create performance frameworks, and develop teams that can sustain growth.
+            Whether in Operations or Customer Success, my foundation is people-first leadership. I don't just scale headcount, I build managers and leaders, create performance frameworks, and develop teams that can sustain growth.
           </p>
         </div>
 
@@ -60,22 +60,11 @@ export default function TeamBuilding() {
           </div>
         </div>
 
-        {/* Metric Callout */}
+        {/* Team Building Philosophy */}
         <div className="bg-charcoal text-white p-8 rounded-lg max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-lime mb-2">5+</div>
-              <div className="text-sm text-gray-300">Managers Developed</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-lime mb-2">25+</div>
-              <div className="text-sm text-gray-300">Team Members Hired</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-lime mb-2">12</div>
-              <div className="text-sm text-gray-300">Months to Scale</div>
-            </div>
-          </div>
+          <p className="text-xl md:text-2xl leading-relaxed text-center font-handwritten text-lime">
+            My approach to team building is rooted in athletic team building: clear roles, shared accountability, and relentless focus on collective success over individual performance.
+          </p>
         </div>
       </Container>
     </section>
