@@ -167,7 +167,7 @@ export default function ProofApplication() {
       </section>
 
       {/* Key Strengths Deep Dive */}
-      <section className="bg-white py-16 lg:py-24">
+      <section className="bg-light-gray py-16 lg:py-24">
         <Container>
           <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
             How I Drive Results
@@ -175,7 +175,7 @@ export default function ProofApplication() {
 
           <div className="space-y-12">
             {/* Strategic Leadership */}
-            <div className="bg-light-gray p-8 rounded-lg">
+            <div className="bg-white p-8 rounded-lg">
               <h3 className="font-heading font-bold text-2xl text-charcoal mb-4">
                 Strategic Leadership: Building Frameworks That Scale
               </h3>
@@ -183,23 +183,23 @@ export default function ProofApplication() {
                 At iCapital, I developed a comprehensive 5-part operational framework that became the organizational blueprint:
               </p>
               <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
-                <div className="bg-white p-4 rounded-lg">
+                <div className="bg-light-gray p-4 rounded-lg">
                   <div className="text-orange font-bold mb-2">1. Process Mapping</div>
                   <p className="text-sm text-medium-gray">Applied 80/20 principle to focus on highest-impact deliverables</p>
                 </div>
-                <div className="bg-white p-4 rounded-lg">
+                <div className="bg-light-gray p-4 rounded-lg">
                   <div className="text-orange font-bold mb-2">2. Team Structure</div>
                   <p className="text-sm text-medium-gray">Created specialized roles with clear responsibilities</p>
                 </div>
-                <div className="bg-white p-4 rounded-lg">
+                <div className="bg-light-gray p-4 rounded-lg">
                   <div className="text-orange font-bold mb-2">3. Knowledge Systems</div>
                   <p className="text-sm text-medium-gray">Standardized training with videos, guides, checklists</p>
                 </div>
-                <div className="bg-white p-4 rounded-lg">
+                <div className="bg-light-gray p-4 rounded-lg">
                   <div className="text-orange font-bold mb-2">4. Resource Allocation</div>
                   <p className="text-sm text-medium-gray">Tiered clients by complexity for strategic matching</p>
                 </div>
-                <div className="bg-white p-4 rounded-lg">
+                <div className="bg-light-gray p-4 rounded-lg">
                   <div className="text-orange font-bold mb-2">5. Analytics</div>
                   <p className="text-sm text-medium-gray">Data-driven tracking for continuous improvement</p>
                 </div>
@@ -207,7 +207,7 @@ export default function ProofApplication() {
             </div>
 
             {/* Team Leadership */}
-            <div className="bg-light-gray p-8 rounded-lg">
+            <div className="bg-white p-8 rounded-lg">
               <h3 className="font-heading font-bold text-2xl text-charcoal mb-4">
                 Team Leadership & Development: Building Leaders, Not Just Teams
               </h3>
@@ -231,7 +231,7 @@ export default function ProofApplication() {
             </div>
 
             {/* Professional Services */}
-            <div className="bg-light-gray p-8 rounded-lg">
+            <div className="bg-white p-8 rounded-lg">
               <h3 className="font-heading font-bold text-2xl text-charcoal mb-4">
                 Professional Services Excellence: Delivery, Profitability & Quality
               </h3>
