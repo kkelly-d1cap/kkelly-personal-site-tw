@@ -5,7 +5,7 @@ export const config = {
     email: 'hello@katiekelly.com',
   },
   hero: {
-    headline: 'Scaling Growth-Stage FinTech Platforms',
+    headline: 'Scaling Operations for Growth-Stage SaaS Platforms',
     subheadline: 'Scaling Customer Success, Professional Services, and Operations for Growth-Stage Fintech & SaaS: Building Teams, Systems & Frameworks That Enable Hypergrowth',
     valueProposition: 'Providing practical solutions for complex problems',
     highlightedWord: 'complex problems',
