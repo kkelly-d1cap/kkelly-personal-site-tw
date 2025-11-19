@@ -18,7 +18,7 @@ export default function ProofApplication() {
             <div className="mb-8">
               <p className="text-lime text-sm font-medium mb-2">APPLICATION FOR</p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-4">
-                Senior Director CS & Professional Services
+                Senior Director Customer Success & Professional Services
               </h1>
               <p className="text-2xl md:text-3xl text-gray-300">
                 Proof
@@ -78,7 +78,7 @@ export default function ProofApplication() {
 
             {/* Transition statement */}
             <p className="text-xl md:text-2xl text-orange font-handwritten leading-relaxed">
-              Ready to build and scale Proof's Customer Success and professional services organizations with proven frameworks for driving retention, expansion, and customer value.
+              Ready to build and scale Proof's customer success and professional services organizations with proven frameworks that drive retention, expansion, and customer value.
             </p>
           </div>
         </Container>
@@ -113,7 +113,7 @@ export default function ProofApplication() {
                 Proven Track Record Building High-Performing Teams
               </h3>
               <p className="text-medium-gray">
-                Built a 25+ person team from the ground up in 12 months. Developed 5+ first-time managers with structured coaching frameworks. Hired and onboarded 15+ team members in 12 months using scalable hiring frameworks. Reduced new hire ramp time by 75% (from 3-6 months to 3-4 weeks) through documentation and training systems.
+                Hired and onboarded 15+ team members in 12 months using scalable hiring frameworks. Developed 5+ first-time managers with structured coaching frameworks. Reduced new hire ramp time by 75% (from 3-6 months to 3-4 weeks) through documentation and training systems.
               </p>
             </div>
 
@@ -217,15 +217,15 @@ export default function ProofApplication() {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-orange mr-3 mt-1">✓</span>
-                  <span className="text-medium-gray"><strong>Manager Development:</strong> Developed first-time managers with 1:1 frameworks and performance management systems</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-orange mr-3 mt-1">✓</span>
                   <span className="text-medium-gray"><strong>Hiring Frameworks:</strong> Built role definitions and interview rubrics enabling 25+ hires in 12 months</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange mr-3 mt-1">✓</span>
                   <span className="text-medium-gray"><strong>Performance Systems:</strong> Created OKRs, skills matrices, and career ladders aligning growth with needs</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-orange mr-3 mt-1">✓</span>
+                  <span className="text-medium-gray"><strong>Manager Development:</strong> Developed first-time managers with 1:1 frameworks and performance management systems</span>
                 </li>
               </ul>
             </div>
