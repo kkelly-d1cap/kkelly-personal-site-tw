@@ -261,7 +261,7 @@ export default function ProofApplication() {
       <section className="bg-white py-16 lg:py-24 border-t-2 border-orange">
         <Container>
           <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-            Personal Site
+            Resources & Contact
           </h2>
 
           <div className="bg-light-gray p-8 rounded-lg max-w-2xl mx-auto">
@@ -294,7 +294,7 @@ export default function ProofApplication() {
                 <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                 </svg>
-                <span className="text-sm">Full Personal Site</span>
+                <span className="text-sm">Personal Site</span>
               </a>
             </div>
           </div>
