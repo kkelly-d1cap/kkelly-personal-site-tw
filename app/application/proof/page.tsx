@@ -78,7 +78,7 @@ export default function ProofApplication() {
 
             {/* Transition statement */}
             <p className="text-xl md:text-2xl text-orange font-handwritten leading-relaxed">
-              Ready to build and scale Proof's customer success and professional services organizations with proven frameworks for driving retention, expansion, and customer value
+              Ready to build and scale Proof's Customer Success and professional services organizations with proven frameworks for driving retention, expansion, and customer value.
             </p>
           </div>
         </Container>
@@ -94,7 +94,7 @@ export default function ProofApplication() {
           {/* Empathy Hook */}
           <div className="bg-lime/10 border-l-4 border-lime p-6 rounded-r-lg mb-12">
             <p className="text-lg text-charcoal leading-relaxed italic">
-              For the past 15+ years, I've built and scaled post-sales organizations that blend Customer Success with implementation operations, essentially running embedded professional services at scale. At iCapital, I led 500+ complex platform implementations annually while building a 25-person CS organization, applying PS methodologies to drive efficiency, profitability, and customer outcomes. I see Proof as an opportunity to bring this exact playbook to a role designed for someone who understands both the art of customer success and the science of professional services delivery.
+              For the past 15+ years, I've built and scaled post-sales organizations that blend customer success with implementation and delivery operations, essentially running embedded professional services at scale. At iCapital, I led 500+ complex platform implementations annually while building a 25-person CS organization, applying PS methodologies to drive efficiency, profitability, and customer outcomes. I see Proof as an opportunity to bring this exact playbook to a role designed for someone who understands both the art of customer success and the science of professional services delivery.
             </p>
           </div>
 
@@ -104,7 +104,7 @@ export default function ProofApplication() {
                 15+ Years Progressive CS & Professional Services Leadership
               </h3>
               <p className="text-medium-gray">
-                Built and scaled customer success and implementation organizations in SaaS environments. At iCapital, built a 25+ person CS organization from scratch in 12 months and redesigned operations for a 50+ person global implementation team, delivering measurable efficiency gains while maintaining quality.
+                Built and scaled customer success and implementation organizations in SaaS environments. At iCapital, built a 25+ person CS & PS organization from scratch in 12 months and redesigned operations for a 50+ person global implementation team, delivering measurable efficiency gains while maintaining quality.
               </p>
             </div>
 
@@ -113,7 +113,7 @@ export default function ProofApplication() {
                 Proven Track Record Building High-Performing Teams
               </h3>
               <p className="text-medium-gray">
-                Developed 5+ first-time managers with structured coaching frameworks. Hired and onboarded 25+ team members in 12 months using scalable hiring frameworks. Reduced new hire ramp time by 75% (from 3-6 months to 3-4 weeks) through documentation and training systems.
+                Built a 25+ person team from the ground up in 12 months. Developed 5+ first-time managers with structured coaching frameworks. Hired and onboarded 15+ team members in 12 months using scalable hiring frameworks. Reduced new hire ramp time by 75% (from 3-6 months to 3-4 weeks) through documentation and training systems.
               </p>
             </div>
 
@@ -131,7 +131,7 @@ export default function ProofApplication() {
                 Professional Services Delivery & Profitability
               </h3>
               <p className="text-medium-gray">
-                Led successful delivery of 100+ white-label implementations and 500+ onboardings annually. Optimized resource allocation across client tiers with tier-specific coverage ratios. Achieved 60% efficiency improvement through process optimization and strategic resource management.
+                Led successful delivery of 75+ white-label implementations and 500+ onboardings annually. Optimized resource allocation across client tiers with tier-specific coverage ratios. Achieved 60% efficiency improvement through process optimization and strategic resource management.
               </p>
             </div>
 
@@ -140,7 +140,7 @@ export default function ProofApplication() {
                 Cross-Functional Collaboration & Expansion
               </h3>
               <p className="text-medium-gray">
-                Successfully partnered with Sales, Product, and Finance to drive strategic initiatives. Led cross-functional project that saved enterprise client $500K annually, preventing churn and creating expansion opportunity. Built feedback loops between CS and Product for roadmap influence.
+                Successfully partnered with Sales, Product, and Finance to drive strategic initiatives. Led cross-functional project that saved enterprise client $500K annually, preventing churn. Built feedback loops between CS and Product for roadmap influence.
               </p>
             </div>
 
@@ -149,7 +149,7 @@ export default function ProofApplication() {
                 Metrics-Driven & Data-Informed Decision Making
               </h3>
               <p className="text-medium-gray">
-                Built reporting infrastructure tracking efficiency, utilization, quality, and customer outcomes. Defined and tracked KPIs including time-to-value and team productivity metrics. Used data to drive strategic resource allocation and process improvements.
+                Built comprehensive reporting infrastructure tracking efficiency, utilization, quality, and customer outcomes. Defined and tracked KPIs including, time-to-value and team productivity metrics. Used data to drive strategic resource allocation and process improvements.
               </p>
             </div>
           </div>
@@ -217,7 +217,7 @@ export default function ProofApplication() {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-orange mr-3 mt-1">✓</span>
-                  <span className="text-medium-gray"><strong>Manager Development:</strong> Developed 5+ first-time managers with 1:1 frameworks and performance management systems</span>
+                  <span className="text-medium-gray"><strong>Manager Development:</strong> Developed first-time managers with 1:1 frameworks and performance management systems</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-orange mr-3 mt-1">✓</span>
@@ -237,8 +237,8 @@ export default function ProofApplication() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-orange mb-2">100+</div>
-                  <div className="text-sm text-medium-gray">White-label implementations annually</div>
+                  <div className="text-4xl font-bold text-orange mb-2">75+</div>
+                  <div className="text-sm text-medium-gray">Platform implementations annually</div>
                 </div>
                 <div className="text-center">
                   <div className="text-4xl font-bold text-orange mb-2">500+</div>
@@ -261,7 +261,7 @@ export default function ProofApplication() {
       <section className="bg-white py-16 lg:py-24 border-t-2 border-orange">
         <Container>
           <h2 className="font-handwritten text-4xl md:text-5xl mb-12 text-charcoal">
-            Resources & Contact
+            Personal Site
           </h2>
 
           <div className="bg-light-gray p-8 rounded-lg max-w-2xl mx-auto">
@@ -302,7 +302,7 @@ export default function ProofApplication() {
           {/* Thank You Note */}
           <div className="bg-charcoal text-white p-8 rounded-lg mt-12">
             <p className="text-xl md:text-2xl leading-relaxed">
-              Thank you for considering my application. I'm excited about the opportunity to bring my experience building and scaling customer success and professional services organizations to Proof, helping drive retention, expansion, and exceptional customer outcomes.
+              Thank you for considering my application. Growth-stage is a unique and exciting chapter, I welcome the opportunity to bring my experience building and scaling customer success and professional services organizations to Proof.
             </p>
           </div>
 
