@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katie Kelly - Ramp Application - Head of Customer Success</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #2d2d2d;
+      background: #ffffff;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: #2d2d2d;
+      color: white;
+      padding: 4rem 0;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .hero .job-title {
+      font-size: 1.5rem;
+      color: #d1d5db;
+      margin-bottom: 2rem;
+    }
+
+    .hero .lime-text {
+      color: #d4ff00;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero .author-section {
+      border-top: 1px solid #4b5563;
+      padding-top: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero .author-name {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    .hero .author-title {
+      color: #9ca3af;
+    }
+
+    .hero .tagline {
+      font-size: 1.25rem;
+      color: #ff6b35;
+      font-style: italic;
+      line-height: 1.75;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 4rem 0;
+    }
+
+    .bg-white {
+      background-color: #ffffff;
+    }
+
+    .bg-light-gray {
+      background-color: #f5f5f5;
+    }
+
+    .bg-charcoal {
+      background-color: #2d2d2d;
+      color: white;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      font-style: italic;
+      color: #2d2d2d;
+      margin-bottom: 3rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: #2d2d2d;
+      margin-bottom: 0.75rem;
+    }
+
+    h4 {
+      font-weight: bold;
+      color: #2d2d2d;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      color: #666;
+      margin-bottom: 1rem;
+      line-height: 1.75;
+    }
+
+    /* Callout Boxes */
+    .empathy-box {
+      background-color: #d4ff001a;
+      border-left: 4px solid #d4ff00;
+      padding: 1.5rem;
+      border-radius: 0 0.5rem 0.5rem 0;
+      margin-bottom: 3rem;
+    }
+
+    .empathy-box p {
+      font-size: 1.125rem;
+      color: #2d2d2d;
+      font-style: italic;
+    }
+
+    .achievement-box {
+      background-color: #ff6b351a;
+      border-left: 4px solid #ff6b35;
+      padding: 2rem;
+      border-radius: 0 0.5rem 0.5rem 0;
+    }
+
+    .achievement-box .title {
+      font-size: 1.5rem;
+      font-style: italic;
+      color: #2d2d2d;
+      margin-bottom: 1rem;
+    }
+
+    .achievement-box p {
+      font-size: 1.125rem;
+    }
+
+    /* Grid Layouts */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .card {
+      background-color: #f5f5f5;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+    }
+
+    .question-card {
+      background-color: white;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .stat-card {
+      background-color: #f5f5f5;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      text-align: center;
+    }
+
+    .stat-card .number {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #ff6b35;
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-card .label {
+      font-size: 0.875rem;
+      color: #666;
+    }
+
+    .stat-card .sublabel {
+      font-size: 0.75rem;
+      color: #666;
+      margin-top: 0.25rem;
+    }
+
+    /* Lists */
+    ul {
+      margin-left: 0;
+      margin-bottom: 1rem;
+    }
+
+    li {
+      color: #666;
+      margin-bottom: 0.75rem;
+      list-style: none;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+
+    li::before {
+      content: "•";
+      color: #ff6b35;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+
+    .challenge-box {
+      border-left: 4px solid #d4ff00;
+      padding-left: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .challenge-box .title {
+      font-weight: bold;
+      color: #2d2d2d;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Pattern Recognition */
+    .pattern-section {
+      text-align: center;
+      padding: 3rem 0;
+    }
+
+    .pattern-section .main-text {
+      font-size: 1.5rem;
+      font-style: italic;
+      line-height: 1.75;
+      margin-bottom: 1rem;
+    }
+
+    .pattern-section .highlight-text {
+      font-size: 1.25rem;
+      color: #d4ff00;
+      font-weight: bold;
+    }
+
+    /* Thank You Section */
+    .thank-you-box {
+      background-color: #2d2d2d;
+      color: white;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      margin-top: 3rem;
+    }
+
+    .thank-you-box p {
+      font-size: 1.25rem;
+      color: white;
+      line-height: 1.75;
+    }
+
+    .signature {
+      text-align: center;
+      font-style: italic;
+      margin-top: 3rem;
+    }
+
+    .signature .name {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #2d2d2d;
+    }
+
+    .signature .thanks {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Print Styles */
+    @media print {
+      .hero {
+        break-after: page;
+      }
+
+      section {
+        padding: 2rem 0;
+      }
+
+      .question-card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+
+      h2 {
+        break-after: avoid;
+        page-break-after: avoid;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .grid-2, .grid-3 {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 2rem !important;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div>
+        <p class="lime-text">APPLICATION FOR</p>
+        <h1>Head of Customer Success</h1>
+        <p class="job-title">Activation & Onboarding | Ramp</p>
+      </div>
+
+      <div class="author-section">
+        <div>
+          <p class="author-name">Katie Kelly</p>
+          <p class="author-title">FinTech Operations Leader</p>
+        </div>
+      </div>
+
+      <p class="tagline">
+        Ready to lead Ramp's ~75-person customer success organization and drive industry-leading performance
+      </p>
+    </div>
+  </section>
+
+  <!-- Why I'm the Right Fit -->
+  <section class="bg-white">
+    <div class="container">
+      <h2>Why I'm the Right Fit</h2>
+
+      <div class="empathy-box">
+        <p>
+          I know what it's like to be in this stage where the business is booming, teams need to keep moving fast, overhead must be managed, systems need building, and through it all, clients deserve a best-in-class experience.
+        </p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Built & Scaled High-Performing Teams</h3>
+          <p>
+            Built a 25+ person, multi-manager CS organization from scratch in 12 months at iCapital, establishing frameworks for hiring, training, and client delivery that scale. Also stepped into a 50+ person global implementation team where I implemented the operating model and managed mid-market and SMB expansion.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Proven Activation & Onboarding Expertise</h3>
+          <p>
+            Reduced client implementation timelines 50% for SMB and mid-market clients from 3 months to 6 weeks while doubling output and maintaining headcount. Created 5-part operational framework focused on speed, quality, and repeatability at scale.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Multi-Segment Experience</h3>
+          <p>
+            Successfully scaled operations across hundreds of Enterprise, Mid-Market, and SMB clients with tier-specific playbooks, coverage ratios, and SLAs ensuring quality at every level.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>FinTech Background</h3>
+          <p>
+            Deep experience at iCapital (alternative investment fintech platform) serving wealth managers, advisors, and asset managers - understand the complexities of financial services operations.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Cross-Functional Collaboration</h3>
+          <p>
+            Partner effectively with Sales, Product, and Finance. Led initiative that saved enterprise client $500K annually through product automation and cross-team coordination.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Metrics-Driven Leader</h3>
+          <p>
+            Achieved 60% efficiency improvement through data-driven decision making. Built reporting infrastructure (Excel → Tableau) that provided real-time visibility into activation, adoption, and team performance.
+          </p>
+        </div>
+      </div>
+
+      <div class="achievement-box">
+        <p class="title">
+          Increased Efficiency by 60%: More Output with Fewer Resources
+        </p>
+        <p>
+          Led SMB and Mid-Market client operations through hypergrowth, achieving +20% output increase while reducing headcount 25% through systematic process improvement, team restructuring, and data-driven resource allocation.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pattern Recognition Callout -->
+  <section class="bg-charcoal">
+    <div class="container pattern-section">
+      <p class="main-text">
+        The challenges you're facing: balancing scale with quality, building data-driven operations, aligning GTM teams.
+      </p>
+      <p class="highlight-text">
+        These are patterns I've solved repeatedly.
+      </p>
+    </div>
+  </section>
+
+  <!-- Application Questions -->
+  <section class="bg-light-gray">
+    <div class="container">
+      <h2>Application Questions</h2>
+
+      <!-- Question 1 -->
+      <div class="question-card">
+        <h3>1. Walk us through the structure of the Customer Success or Implementation organization you led most recently.</h3>
+        <p style="font-style: italic;">
+          What customer segments did your teams support? How many people and management layers did you oversee? What were the key challenges you faced as the organization scaled, and how did you address them?
+        </p>
+
+        <div style="margin-top: 2rem;">
+          <h4>Organization Structure</h4>
+          <p>
+            Built a 25+ person, multi-manager CS organization from scratch in 12 months at iCapital, featuring specialized teams across two management layers. This followed earlier success redesigning operations for a 50+ person global implementation team, where implementation of a comprehensive operating model with direct management of mid-market and SMB segments drove 60% efficiency improvement while delivering more output with fewer resources.
+          </p>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          <h4>Client Segments We Supported</h4>
+          <ul>
+            <li><strong>SMB:</strong> High-volume segment requiring efficient, standardized processes (High Volume, Low Touch, Lower Revenue)</li>
+            <li><strong>Mid-Market:</strong> Clients needing customized onboarding with tailored support (Mid Volume, Mid-Touch, High Revenue Potential)</li>
+            <li><strong>Enterprise:</strong> High-complexity clients requiring bespoke implementations and dedicated account management (Low Volume, High Touch, High Revenue)</li>
+          </ul>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          <h4>Team Structure & Management Layers</h4>
+          <p>
+            The division was organized into three specialized functions to eliminate the inefficiencies of commingled roles:
+          </p>
+          <ul style="margin-top: 1rem;">
+            <li><strong>1. Implementation Team</strong> (Managers + Associates): Focused exclusively on client rollout, platform configuration, and onboarding - handling 100+ white label implementations annually</li>
+            <li><strong>2. Operations Team</strong> (Account Managers + Player Coaches + Associates): Managed recurring business activities and onboarding (500+ onboardings annually), ensuring consistent delivery and client alignment</li>
+            <li><strong>3. Support Team</strong> (Front-end/Back-end Managers + Associates): Bifurcated support handling 25,000+ annual tickets, with front-end managing platform issues and back-end handling data integrity</li>
+          </ul>
+          <p style="margin-top: 1rem;">
+            This created 2-3 management layers depending on client tier, with clear coverage ratios.
+          </p>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          <h4>Key Scaling Challenges & Solutions</h4>
+
+          <div style="margin-top: 1.5rem;">
+            <div class="challenge-box">
+              <p class="title">Challenge 1: Doing More with Less During Hypergrowth</p>
+              <p>
+                When I had dotted-line oversight of a Mid-Market and SMB segments earlier in my tenure, that team faced a 25% workforce reduction while output demands increased 20%.
+              </p>
+              <p>
+                <strong>Solution:</strong> I developed and implemented a 5-Part Operational Framework that improved efficiency by 60% (productivity per employee from 400 to 600 hours annually). This framework became the blueprint for scaling the broader organization.
+              </p>
+            </div>
+
+            <div class="challenge-box">
+              <p class="title">Challenge 2: Inconsistent Service Quality Across Tiers</p>
+              <p>
+                Risk of enterprise clients receiving SMB-level service or vice versa.
+              </p>
+              <p>
+                <strong>Solution:</strong> Built rigorous client segmentation with tier-specific playbooks, coverage ratios, and SLAs. Created role-task matrices ensuring each deliverable had clear owners and time allocations.
+              </p>
+            </div>
+
+            <div class="challenge-box">
+              <p class="title">Challenge 3: Knowledge Silos & Training Inefficiency</p>
+              <p>
+                Traditional 3-6 month ramp time was unsustainable during rapid growth.
+              </p>
+              <p>
+                <strong>Solution:</strong> Invested heavily in documentation and training infrastructure (videos, how-to guides, checklists for each deliverable), reducing onboarding to 3-4 weeks while improving quality and eliminating client-facing training costs.
+              </p>
+            </div>
+
+            <div class="challenge-box">
+              <p class="title">Challenge 4: Resource Allocation & Pipeline Visibility</p>
+              <p>
+                Difficulty balancing workloads across 500+ new annual onboardings.
+              </p>
+              <p>
+                <strong>Solution:</strong> Established global pipeline management with clear staffing and management models tied to client tiers, maintaining flexibility to reallocate resources based on demand while ensuring broader client assignments remain intact.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question-card">
+        <h3>2. Give an example of how you've used data or tooling to improve onboarding efficiency or drive higher product adoption.</h3>
+        <p style="font-style: italic;">
+          How did you connect these improvements to measurable business outcomes?
+        </p>
+
+        <div style="margin-top: 2rem;">
+          <div class="achievement-box">
+            <p style="color: #2d2d2d; font-style: italic;">
+              <strong>My Philosophy: </strong>
+              The systems and reporting infrastructure are what drive success, from there you need to measure what matters so the data tells you more than you knew before. At iCapital, I built a data-driven operational framework that fundamentally changed how we measured and improved performance.
+            </p>
+          </div>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          <h4>The System</h4>
+          <p>
+            The first step was not just to implement a tool but create an interconnected measurement system across five operational dimensions:
+          </p>
+          <ul>
+            <li><strong>Process Mapping Data:</strong> Task-level time tracking, dependency mapping, and deliverable decomposition</li>
+            <li><strong>Team Structure Metrics:</strong> Role-task assignment matrices and accountability tracking</li>
+            <li><strong>Education Performance:</strong> Training completion rates and time-to-productivity</li>
+            <li><strong>Resource Allocation:</strong> Pipeline forecasting and coverage ratio management</li>
+            <li><strong>Performance Analytics:</strong> Efficiency ratios, output metrics, and trend analysis</li>
+          </ul>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          <h4>The Evolution</h4>
+
+          <p><strong>Phase 1:</strong></p>
+          <p>
+            Built comprehensive tracking spreadsheets that captured task-level hours and dependencies for each deliverable type, individual and team production hours mapped to client tiers, weekly pipeline status (implementations, onboardings, support tickets), and employee utilization and efficiency ratios.
+          </p>
+
+          <p style="margin-top: 1.5rem;"><strong>Phase 2:</strong></p>
+          <p>
+            As data volume scaled, I led the migration to Tableau, creating executive dashboards that provided real-time visibility into team efficiency trends, bottleneck identification across the delivery pipeline, client tier performance and resource allocation optimization, and quality metrics.
+          </p>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          <h4>Measurable Business Outcomes</h4>
+          <p>
+            The reporting infrastructure enabled data-driven decisions that delivered:
+          </p>
+
+          <div class="grid-3" style="margin-top: 1.5rem;">
+            <div class="stat-card">
+              <div class="number">+60%</div>
+              <div class="label">Productivity per Employee</div>
+              <div class="sublabel">(394 → 629 hours)</div>
+            </div>
+            <div class="stat-card">
+              <div class="number">+50%</div>
+              <div class="label">Onboarding Throughput</div>
+              <div class="sublabel">(250 → 500+ annually)</div>
+            </div>
+            <div class="stat-card">
+              <div class="number">-75%</div>
+              <div class="label">Ramp Time</div>
+              <div class="sublabel">(3-6 mo → 3-4 weeks)</div>
+            </div>
+          </div>
+
+          <div class="empathy-box" style="margin-top: 2rem;">
+            <p>
+              <strong>The Key Insight: </strong>
+              By making operational data visible and actionable, we could pinpoint exactly where inefficiencies existed, whether in task allocation, training gaps, or resource imbalances and then systematically rather than anecdotally. This transformed us from reactive firefighting to proactive optimization.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="question-card">
+        <h3>3. Describe a time when you built or redefined collaboration between Customer Success and other GTM teams (e.g., Sales, Product, Finance).</h3>
+
+        <div style="margin-top: 2rem;">
+          <h4>$500K Recurring Overhead Reduction Through Cross-Functional Leadership</h4>
+          <p>
+            One of my most impactful cross-functional initiatives involved a strategic client who was facing $500,000 in annual recurring overhead costs for fund administration, costs that were threatening the client relationship and creating pricing pressure for our Sales team.
+          </p>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          <h4>The Challenge</h4>
+          <ul>
+            <li><strong>Sales</strong> had a retention risk, the client was evaluating competitors due to cost concerns and ability to advance technology</li>
+            <li><strong>Product</strong> had built automation capabilities but they weren't being leveraged for this use case</li>
+            <li><strong>Implementation</strong> (my team) was managing the ongoing roadmap for the client's future with the company</li>
+            <li>Prior account management though the end-to-end solution wasn't feasible</li>
+          </ul>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          <h4>My Role: Client-Facing Leader & Cross-Functional Orchestrator</h4>
+
+          <div style="margin-top: 1.5rem;">
+            <div class="challenge-box">
+              <p class="title">Step 1: Took Ownership & Built the Business Case</p>
+              <ul>
+                <li>We told the client directly: "We are making this a top priority to solve this" creating a commitment to build trust with the client</li>
+                <li>Worked with Sales to understand the retention risk and competitive dynamics</li>
+                <li>Quantified the operational costs we could eliminate through automation</li>
+              </ul>
+            </div>
+
+            <div class="challenge-box">
+              <p class="title">Step 2: Scoped the Solution with Product</p>
+              <ul>
+                <li>Collaborated with Product team to assess automation feasibility for this specific fund structure</li>
+                <li>Identified gaps between existing capabilities and client requirements</li>
+                <li>Co-developed implementation roadmap with clear milestones</li>
+              </ul>
+            </div>
+
+            <div class="challenge-box">
+              <p class="title">Step 3: Coordinated the 4-Month Delivery</p>
+              <ul>
+                <li>Assembled cross-functional working team (Sales, Product, Implementation, Operations)</li>
+                <li>Established weekly check-ins with clear ownership and accountability</li>
+                <li>Led client communications, managing expectations while maintaining confidence</li>
+                <li>Oversaw the technical implementation and client training on new automated workflows</li>
+              </ul>
+            </div>
+
+            <div class="challenge-box">
+              <p class="title">Step 4: Executed & Measured</p>
+              <ul>
+                <li>Delivered on time in 4 months</li>
+                <li>Transitioned fund administration to automated product</li>
+                <li>Validated $500K in annual savings</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          <h4>Broader Impact on GTM Collaboration</h4>
+          <p>
+            This success case became a template for how we redefined collaboration:
+          </p>
+
+          <div style="margin-top: 1.5rem;">
+            <div style="margin-bottom: 1.5rem;">
+              <p style="font-weight: bold; color: #2d2d2d;">With Sales:</p>
+              <p>
+                Established formal handoff process between Sales, Product, and Implementation with clear acceptance criteria. Created feedback loop where my team provided product adoption insights to inform Sales strategy.
+              </p>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <p style="font-weight: bold; color: #2d2d2d;">With Product:</p>
+              <p>
+                Built regular cadence between Operations and Product teams for real-time client insights. My team became Product's "voice of customer" surfacing feature requests backed by business impact. Created escalation protocols where critical client needs got fast-tracked to Product roadmap discussions.
+              </p>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <p style="font-weight: bold; color: #2d2d2d;">With Finance:</p>
+              <p>
+                Collaborated on resource allocation models tied to client profitability. Provided operational metrics that informed pricing strategy. Built business cases for efficiency investments (training, tools, automation) with clear ROI.
+              </p>
+            </div>
+          </div>
+
+          <div class="achievement-box" style="margin-top: 2rem;">
+            <p style="color: #2d2d2d; font-style: italic;">
+              <strong>The Result: </strong>
+              This wasn't a one-time win, it established a repeatable model for cross-functional problem-solving that made GTM teams more effective and created competitive differentiation in how we served enterprise clients.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources & Contact -->
+  <section class="bg-white" style="border-top: 2px solid #ff6b35;">
+    <div class="container">
+      <h2>Resources & Contact</h2>
+
+      <div style="background-color: #f5f5f5; padding: 2rem; border-radius: 0.5rem; max-width: 800px; margin: 0 auto;">
+        <div style="display: flex; justify-content: space-around; gap: 2rem; flex-wrap: wrap;">
+          <div style="text-align: center;">
+            <p style="color: #ff6b35; font-weight: 500; margin-bottom: 0.5rem;">📄</p>
+            <p style="font-size: 0.875rem; color: #2d2d2d;">Download Full CV</p>
+          </div>
+          <div style="text-align: center;">
+            <p style="color: #ff6b35; font-weight: 500; margin-bottom: 0.5rem;">💼</p>
+            <p style="font-size: 0.875rem; color: #2d2d2d;">LinkedIn Profile</p>
+            <p style="font-size: 0.75rem; color: #666;">linkedin.com/in/katherinemkelly</p>
+          </div>
+          <div style="text-align: center;">
+            <p style="color: #ff6b35; font-weight: 500; margin-bottom: 0.5rem;">🌐</p>
+            <p style="font-size: 0.875rem; color: #2d2d2d;">Full Personal Site</p>
+            <p style="font-size: 0.75rem; color: #666;">katiekelly.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="thank-you-box">
+        <p>
+          Thank you for considering my application. I'm excited about the opportunity to bring my experience scaling customer success organizations to Ramp and help build world-class onboarding and activation for your growing customer base.
+        </p>
+      </div>
+
+      <div class="signature">
+        <p class="thanks">Thank you,</p>
+        <p class="name">Katie Kelly</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
