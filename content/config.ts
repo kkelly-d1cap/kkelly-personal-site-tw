@@ -1,18 +1,18 @@
 export const config = {
   personal: {
     name: 'Katie Kelly',
-    title: 'Growth-Stage Operations Leader',
+    title: 'Customer-Facing Operations Leader',
     email: 'hello@katiekelly.com',
   },
   hero: {
-    headline: 'Scaling Operations for Growth-Stage SaaS Platforms',
-    subheadline: 'Scaling Customer Success, Professional Services, and Operations for Growth-Stage Fintech & SaaS: Building Teams, Systems & Frameworks That Enable Hypergrowth',
-    valueProposition: 'Providing practical solutions for complex problems',
-    highlightedWord: 'complex problems',
+    headline: 'I Build Customer-Facing Operations That Scale',
+    subheadline: 'Scaling teams across support, success, and growth to meet the demands of rapidly evolving businesses—turning post-sales chaos into competitive advantage.',
+    valueProposition: 'Customer outcomes are the ultimate measure of company success',
+    highlightedWord: 'company success',
   },
   about: {
-    heading: 'Who I Am',
-    content: "I'm a growth-stage SaaS and platform operations leader who builds and scales high-performing teams. Over the past decade, I've specialized in turning operational chaos into streamlined systems that support rapid growth: building 25+ person teams from the ground up, doubling throughput, and creating frameworks that make hypergrowth sustainable.",
+    heading: 'The Bottom Line',
+    content: "Customer-centricity isn't a department—it's a mindset baked into how you build and scale a company. My operating philosophy: deep customer empathy, real-time feedback loops, cross-functional awareness, and treating customer outcomes as the ultimate measure of success. I build the teams, systems, and frameworks that make this mindset operational.",
   },
   contact: {
     email: 'hello@katiekelly.com',

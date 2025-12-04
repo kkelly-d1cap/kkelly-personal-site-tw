@@ -36,7 +36,7 @@ export default function Hero() {
 
           {/* Value Proposition with Orange Handwritten */}
           <p className="text-3xl md:text-4xl lg:text-5xl mb-12 font-handwritten text-orange">
-            Providing practical solutions for complex problems
+            {config.hero.valueProposition}
           </p>
 
           {/* Social Links - Neon Style */}

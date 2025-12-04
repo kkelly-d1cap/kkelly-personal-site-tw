@@ -7,10 +7,10 @@ export default function ChooseYourPath() {
       <Container>
         <div className="text-center mb-12">
           <h2 className="font-handwritten text-4xl md:text-5xl mb-4 text-charcoal">
-            I Help Growth-Stage Companies in Two Key Areas
+            Two Ways I Create Impact
           </h2>
           <p className="text-lg text-medium-gray max-w-3xl mx-auto">
-            Whether you need to build operational infrastructure or scale customer success, I bring systematic frameworks and proven results.
+            Customer-facing operations requires both strategic infrastructure and high-performing teams. I build both.
           </p>
         </div>
 
@@ -62,7 +62,7 @@ export default function ChooseYourPath() {
             </div>
           </Link>
 
-          {/* Customer Success Card */}
+          {/* Post-Sales Teams Card */}
           <Link href="/customer-success" className="group">
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-lime h-full">
               <div className="flex items-center gap-4 mb-6">
@@ -72,12 +72,12 @@ export default function ChooseYourPath() {
                   </svg>
                 </div>
                 <h3 className="font-heading font-bold text-2xl text-charcoal">
-                  Customer Success & Professional Services
+                  Post-Sales Teams & Organizations
                 </h3>
               </div>
 
               <p className="text-medium-gray mb-6 leading-relaxed">
-                Blending Customer Success with implementation operations—running embedded professional services at scale. I build post-sales organizations that deliver successful implementations, drive retention, and turn expansion into repeatable systems.
+                Building and scaling the teams that own customer outcomes—support, implementation, growth, and retention. Not a siloed "CS department," but cross-functional organizations that connect customer reality to product and strategy.
               </p>
 
               <div className="space-y-3 mb-6">
@@ -87,21 +87,21 @@ export default function ChooseYourPath() {
                 </div>
                 <div className="flex items-start">
                   <span className="text-lime mr-2 mt-1">✓</span>
-                  <span className="text-medium-gray">CS org building with PS delivery methodologies</span>
+                  <span className="text-medium-gray">Real-time feedback loops to product & engineering</span>
                 </div>
                 <div className="flex items-start">
                   <span className="text-lime mr-2 mt-1">✓</span>
-                  <span className="text-medium-gray">Retention frameworks & value realization</span>
+                  <span className="text-medium-gray">Value realization as the north star metric</span>
                 </div>
               </div>
 
               <div className="bg-lime/5 p-4 rounded-lg mb-6">
                 <p className="text-sm font-bold text-lime mb-1">Recent Impact</p>
-                <p className="text-sm text-medium-gray">500+ implementations | 75% faster time-to-value | $20M+ churn prevented</p>
+                <p className="text-sm text-medium-gray">500+ implementations | 75% faster time-to-value | $20M+ ARR protected</p>
               </div>
 
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-2 border-charcoal text-charcoal font-medium group-hover:bg-charcoal group-hover:text-white transition-all">
-                <span>Explore CS & Professional Services</span>
+                <span>Explore Post-Sales Leadership</span>
                 <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
