@@ -15,7 +15,7 @@ export default function ChooseYourPath() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {/* Operations Card */}
+          {/* Organizational Building Card */}
           <Link href="/operations" className="group">
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-orange h-full">
               <div className="flex items-center gap-4 mb-6">
@@ -25,22 +25,22 @@ export default function ChooseYourPath() {
                   </svg>
                 </div>
                 <h3 className="font-heading font-bold text-2xl text-charcoal">
-                  Operations
+                  Organizational Building
                 </h3>
               </div>
 
               <p className="text-medium-gray mb-6 leading-relaxed">
-                Building operational infrastructure that turns organizational chaos into competitive advantage. I design the structures, processes, and teams that enable 2-3x growth without breaking.
+                Designing structures and systems that scale. I build the operational infrastructure that turns organizational chaos into competitive advantage, enabling 2-3x growth without breaking.
               </p>
 
               <div className="space-y-3 mb-6">
                 <div className="flex items-start">
                   <span className="text-orange mr-2 mt-1">✓</span>
-                  <span className="text-medium-gray">Organizational design & team building</span>
+                  <span className="text-medium-gray">Organizational design & operating models</span>
                 </div>
                 <div className="flex items-start">
                   <span className="text-orange mr-2 mt-1">✓</span>
-                  <span className="text-medium-gray">Operating model transformation</span>
+                  <span className="text-medium-gray">Process architecture & systems thinking</span>
                 </div>
                 <div className="flex items-start">
                   <span className="text-orange mr-2 mt-1">✓</span>
@@ -50,11 +50,11 @@ export default function ChooseYourPath() {
 
               <div className="bg-orange/5 p-4 rounded-lg mb-6">
                 <p className="text-sm font-bold text-orange mb-1">Recent Impact</p>
-                <p className="text-sm text-medium-gray">60% efficiency improvement | Built 25+ person team in 12 months</p>
+                <p className="text-sm text-medium-gray">60% efficiency improvement | Doubled throughput with 25% fewer resources</p>
               </div>
 
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-2 border-charcoal text-charcoal font-medium group-hover:bg-charcoal group-hover:text-white transition-all">
-                <span>Explore Operations</span>
+                <span>Explore Organizational Building</span>
                 <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
@@ -62,7 +62,7 @@ export default function ChooseYourPath() {
             </div>
           </Link>
 
-          {/* Post-Sales Teams Card */}
+          {/* Team Building Card */}
           <Link href="/customer-success" className="group">
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-lime h-full">
               <div className="flex items-center gap-4 mb-6">
@@ -72,36 +72,36 @@ export default function ChooseYourPath() {
                   </svg>
                 </div>
                 <h3 className="font-heading font-bold text-2xl text-charcoal">
-                  Post-Sales Teams & Organizations
+                  Team Building
                 </h3>
               </div>
 
               <p className="text-medium-gray mb-6 leading-relaxed">
-                Building and scaling the teams that own customer outcomes—support, implementation, growth, and retention. Not a siloed "CS department," but cross-functional organizations that connect customer reality to product and strategy.
+                Developing leaders and high-performing teams. I build and scale customer success and post-sales organizations that own customer outcomes across support, implementation, growth, and retention.
               </p>
 
               <div className="space-y-3 mb-6">
                 <div className="flex items-start">
                   <span className="text-lime mr-2 mt-1">✓</span>
-                  <span className="text-medium-gray">Implementation & onboarding at scale (500+ annually)</span>
+                  <span className="text-medium-gray">Leadership development & coaching</span>
                 </div>
                 <div className="flex items-start">
                   <span className="text-lime mr-2 mt-1">✓</span>
-                  <span className="text-medium-gray">Real-time feedback loops to product & engineering</span>
+                  <span className="text-medium-gray">Hiring frameworks & team scaling</span>
                 </div>
                 <div className="flex items-start">
                   <span className="text-lime mr-2 mt-1">✓</span>
-                  <span className="text-medium-gray">Value realization as the north star metric</span>
+                  <span className="text-medium-gray">Performance management & culture</span>
                 </div>
               </div>
 
               <div className="bg-lime/5 p-4 rounded-lg mb-6">
                 <p className="text-sm font-bold text-lime mb-1">Recent Impact</p>
-                <p className="text-sm text-medium-gray">500+ implementations | 75% faster time-to-value | $20M+ ARR protected</p>
+                <p className="text-sm text-medium-gray">Built 25+ person team in 12 months | 5+ managers developed</p>
               </div>
 
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-2 border-charcoal text-charcoal font-medium group-hover:bg-charcoal group-hover:text-white transition-all">
-                <span>Explore Post-Sales Leadership</span>
+                <span>Explore Team Building</span>
                 <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>

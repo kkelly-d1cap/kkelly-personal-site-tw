@@ -91,7 +91,7 @@ export default function Experience() {
           <div className="pl-6">
             <div className="mb-4">
               <h3 className="font-heading font-bold text-2xl text-charcoal mb-2">
-                Senior Vice President, Customer Success and Operations
+                Senior Vice President, Head of US Platform and Client Operations
               </h3>
               <p className="text-lg text-medium-gray">
                 iCapital | 2024-2025
