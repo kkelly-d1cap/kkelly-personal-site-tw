@@ -15,8 +15,8 @@ export default function ChooseYourPath() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {/* Organizational Building Card */}
-          <Link href="/operations" className="group">
+          {/* Organizational Design Card */}
+          <Link href="/organizational-design" className="group">
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-orange h-full">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-orange/10 p-4 rounded-lg group-hover:bg-orange/20 transition-colors">
@@ -25,7 +25,7 @@ export default function ChooseYourPath() {
                   </svg>
                 </div>
                 <h3 className="font-heading font-bold text-2xl text-charcoal">
-                  Organizational Building
+                  Organizational Design
                 </h3>
               </div>
 
@@ -54,7 +54,7 @@ export default function ChooseYourPath() {
               </div>
 
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border-2 border-charcoal text-charcoal font-medium group-hover:bg-charcoal group-hover:text-white transition-all">
-                <span>Explore Organizational Building</span>
+                <span>Explore Organizational Design</span>
                 <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
@@ -63,7 +63,7 @@ export default function ChooseYourPath() {
           </Link>
 
           {/* Team Building Card */}
-          <Link href="/customer-success" className="group">
+          <Link href="/team-building" className="group">
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-lime h-full">
               <div className="flex items-center gap-4 mb-6">
                 <div className="bg-lime/10 p-4 rounded-lg group-hover:bg-lime/20 transition-colors">
