@@ -1,7 +1,7 @@
 export const config = {
   personal: {
     name: 'Katie Kelly',
-    title: 'Growth Stage Post-Sales Leader',
+    title: 'Growth-Stage Fintech Leader',
     email: 'hello@katiekelly.com',
   },
   hero: {
@@ -12,7 +12,7 @@ export const config = {
   },
   about: {
     heading: 'The Bottom Line',
-    content: "I build the operational infrastructure that makes customer success and platform operations possible at scale. Most leaders inherit a function—I build them.\n\nMy operating philosophy: customer-centric, real-time feedback loops, cross-functional awareness, and treating customer outcomes as the ultimate measure of success. I build the teams, systems, and frameworks that make this mindset operational.",
+    content: "I build two things: organizations and the teams inside them.\n\nI build the operational infrastructure that makes customer success and platform operations possible at scale. Most leaders inherit a function - I build them.\n\nMy operating philosophy: customer-centric, real-time feedback loops, cross-functional awareness, and treating customer outcomes as the ultimate measure of success. I build the teams, systems, and frameworks that make this mindset operational.",
   },
   contact: {
     email: 'hello@katiekelly.com',

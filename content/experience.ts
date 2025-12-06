@@ -10,7 +10,7 @@ export interface Experience {
 export const experience: Experience[] = [
   {
     company: 'iCapital',
-    title: 'Senior Vice President, Operations and Client Delivery',
+    title: 'Senior Vice President, Head of US Platform and Client Operations',
     date: '2024 - Present',
     summary: 'Promoted to architect and scale customer success operations for alternative investment fintech platform. Define strategic vision and organizational structure for post-sale activation and implementation. Own end-to-end customer journey across SMB, Mid-Market, and Enterprise segments, designing systems and processes that reduce time-to-value while enabling 2x growth in annual throughput.',
     logo: '/icapital_logo.jpg',
